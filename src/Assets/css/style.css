@@ -1220,6 +1220,7 @@
 }
 .navbar_logo_box{
   flex-basis: 8%;
+  position: relative;
 }
 .navbar_nav_box{
   /* flex-basis: 80%; */
@@ -2765,7 +2766,7 @@ ul.who_we_are_ul_2 li::before {
 }
 .blog-card-blog .blog-card-caption {
     margin-top: 5px;
-    height: 55px;
+    height: fit-content;
 }
 .blog-card-caption {
     font-weight: 600;
@@ -2830,7 +2831,8 @@ ul.who_we_are_ul_2 li::before {
 }
 .blog-share {
   position: relative;
-  right: -10%;
+  left: 30%;
+  bottom: 2%;
 }
 /*-----------------------------------------Blog Page End-----------------------------------------*/
 /*----------------------------------------Contact Page Start----------------------------------------*/
@@ -3776,5 +3778,52 @@ ul.who_we_are_ul_2 li::before {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+  }
+  .blog-card {
+    width: 95%;
+  }
+  .blog-table {
+    width: 100%;
+  }
+  .blog-card-caption a{
+    overflow: hidden;
+    font-size: 12px;
+    height: fit-content;
+    line-height: 10px;
+    position: relative;
+  }
+  .blog-card-description {
+    position: relative;
+    font-size: 10px;
+  }
+  .blog_section_title {
+    font-size: 24px;
+  }
+  .blog-share {
+    position: relative;
+    left: 17%;
+    bottom: 2px;
+  }
+  .blog-card .ftr .stats{
+    font-size: 10px;
+    text-align: center;
+    bottom: 10px;
+  }
+  .share-icons {
+    width: 25px;
+    height: 25px;
+  }
+  .blog-card .author .avatar {
+    width: 25px;
+    height: 25px;
+  }
+  .blog-card .author {
+    position: relative;
+    left: 30px;
+  }
+  .navbar_logo_box{
+    flex-basis: 8%;
+    position: relative;
+    right: 20%;
   }
 }

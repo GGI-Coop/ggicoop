@@ -97,7 +97,12 @@ function Blogs() {
                         <div className="author">
                           <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">{post.author}</span>
                         </div>
-                        <div className="blog-share">
+                        <div className="stats calendar"><i className="fa fa-calendar"></i> {post.published_date}</div>
+
+                        
+                      </div>
+                      </div>
+                      <div className="blog-share anm full fast">
                         <FacebookShareButton
                           url={"https://vercelggi.vercel.app/blog_details"}
                           quote={"Hey guys! Check out this article!"}
@@ -118,14 +123,9 @@ function Blogs() {
                           hashtag="#GGI">
                           <button className="fa fa-linkedin linkedin-icon share-icons" />
                         </LinkedinShareButton></div>
-                        <div className="stats calendar"><i className="fa fa-calendar"></i> {post.published_date}</div>
-                      </div>
-                    </div>
-                  </div></Link>
+                    </div></Link>
                 </div>)
-              
             })}
-
           </div>
         </div>
       </div>
