@@ -3810,11 +3810,11 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    right: 20%;
+    left: 20%;
   }
   .blog-card .author {
     position: relative;
-    right: 20%;
+    left: 20%;
   }
   .blog-card .ftr .stats {
     position: relative;
