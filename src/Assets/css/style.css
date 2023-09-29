@@ -2815,7 +2815,6 @@ ul.who_we_are_ul_2 li::before {
     font-weight: 600;
 }
 .blog-card .ftr .stats {
-    float: right;
     line-height: 30px;
     font-family: "Montserrat";
 }
@@ -3805,8 +3804,8 @@ ul.who_we_are_ul_2 li::before {
     bottom: 2px;
   }
   .share-icons {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
   }
   .navbar_logo_box{
     flex-basis: 8%;
