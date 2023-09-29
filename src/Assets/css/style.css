@@ -3841,11 +3841,11 @@ ul.who_we_are_ul_2 li::before {
   }
   .blog-card .author {
     position: relative;
-    left: 20%;
+    left: 5%;
   }
   .blog-card .ftr .stats {
     position: relative;
-    left: 20%;
+    left: 5%;
   }
   .blog_detail_side_breadcrumn {
   font-size: 10px;
