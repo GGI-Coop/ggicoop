@@ -3708,7 +3708,6 @@ ul.who_we_are_ul_2 li::before {
     width: 270px;
     padding: 10px 0px 0px 0px;
     position: relative;
-    left: -20%;
     text-align: left;
     top: 10px;
   }
