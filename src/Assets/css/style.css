@@ -3804,22 +3804,9 @@ ul.who_we_are_ul_2 li::before {
     left: 17%;
     bottom: 2px;
   }
-  .blog-card .ftr .stats{
-    font-size: 10px;
-    text-align: center;
-    bottom: 10px;
-  }
   .share-icons {
     width: 25px;
     height: 25px;
-  }
-  .blog-card .author .avatar {
-    width: 25px;
-    height: 25px;
-  }
-  .blog-card .author {
-    position: relative;
-    left: 30px;
   }
   .navbar_logo_box{
     flex-basis: 8%;
