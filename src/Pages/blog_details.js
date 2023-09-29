@@ -66,64 +66,64 @@ function Blogs_Details() {
               </center>
               </div>
               <div className="blog-detail-share">
-              <FacebookShareButton 
-                        url={"https://vercelggi.vercel.app/blog_details"}
-                        quote={"Hey guys! Check out this article!"}
-                        hashtag="#GGI">
-                        <button round = "true" className="fa fa-facebook facebook-icon share-icons"/>
-                      </FacebookShareButton>
+              <FacebookShareButton
+                          url={"growingglobeimmigration.com/blogs"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                          <button round="true" className="fa fa-facebook facebook-icon share-icons" />
+                        </FacebookShareButton>
 
-                      <TwitterShareButton 
-                        url={"https://vercelggi.vercel.app/blog_details"}
-                        quote={"Hey guys! Check out this article!"}
-                        hashtag="#GGI">
-                        <img className="share-icons twitter" src={twitter}></img>
-                      </TwitterShareButton>
+                        <TwitterShareButton
+                          url={"growingglobeimmigration.com/blogs"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                          <img className="share-icons" src={twitter}></img>
+                        </TwitterShareButton>
 
-                      <LinkedinShareButton 
-                        url={"https://vercelggi.vercel.app/blog_details"}
-                        quote={"Hey guys! Check out this article!"}
-                        hashtag="#GGI">
-                        <button className="fa fa-linkedin linkedin-icon share-icons"/>
-                      </LinkedinShareButton>
+                        <LinkedinShareButton
+                          url={"growingglobeimmigration.com/blogs"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                          <button className="fa fa-linkedin linkedin-icon share-icons" />
+                        </LinkedinShareButton>
 
-                      <WhatsappShareButton
-                          url={"https://vercelggi.vercel.app/blog_details"}
+                        <WhatsappShareButton
+                          url={"growingglobeimmigration.com/blogs"}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                             <button className="fa fa-whatsapp whatsapp-icon share-icons" />
-                      </WhatsappShareButton></div>
+                        </WhatsappShareButton></div>
                       <br></br>
                       <br></br>
               <div className="blog_detail_para">{parse(post.body)}</div>
               <div className="blog-detail-share">
-              <FacebookShareButton 
-                        url={"https://vercelggi.vercel.app/blog_details"}
-                        quote={"Hey guys! Check out this article!"}
-                        hashtag="#GGI">
-                        <button round = "true" className="fa fa-facebook facebook-icon share-icons"/>
-                      </FacebookShareButton>
+              <FacebookShareButton
+                          url={"growingglobeimmigration.com/blogs"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                          <button round="true" className="fa fa-facebook facebook-icon share-icons" />
+                        </FacebookShareButton>
 
-                      <TwitterShareButton 
-                        url={"https://vercelggi.vercel.app/blog_details"}
-                        quote={"Hey guys! Check out this article!"}
-                        hashtag="#GGI">
-                        <img className="share-icons twitter" src={twitter}></img>
-                      </TwitterShareButton>
+                        <TwitterShareButton
+                          url={"growingglobeimmigration.com/blogs"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                          <img className="share-icons" src={twitter}></img>
+                        </TwitterShareButton>
 
-                      <LinkedinShareButton 
-                        url={"https://vercelggi.vercel.app/blog_details"}
-                        quote={"Hey guys! Check out this article!"}
-                        hashtag="#GGI">
-                        <button className="fa fa-linkedin linkedin-icon share-icons"/>
-                      </LinkedinShareButton>
-                      
-                      <WhatsappShareButton
-                          url={"https://vercelggi.vercel.app/blog_details"}
+                        <LinkedinShareButton
+                          url={"growingglobeimmigration.com/blogs"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                          <button className="fa fa-linkedin linkedin-icon share-icons" />
+                        </LinkedinShareButton>
+
+                        <WhatsappShareButton
+                          url={"growingglobeimmigration.com/blogs"}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                             <button className="fa fa-whatsapp whatsapp-icon share-icons" />
-                      </WhatsappShareButton></div>
+                        </WhatsappShareButton></div>
                       <br></br>
                       <br></br>
                       <div>
