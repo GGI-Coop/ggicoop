@@ -3786,14 +3786,14 @@ ul.who_we_are_ul_2 li::before {
   }
   .blog-card-caption a{
     overflow: hidden;
-    font-size: 12px;
+    font-size: 13px;
     height: fit-content;
     line-height: 10px;
     position: relative;
   }
   .blog-card-description {
     position: relative;
-    font-size: 10px;
+    font-size: 11px;
   }
   .blog_section_title {
     font-size: 24px;
@@ -3810,7 +3810,7 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    left: 20%;
+    right: inherit;: 20%;
   }
   .blog-card .author {
     position: relative;
@@ -3818,6 +3818,6 @@ ul.who_we_are_ul_2 li::before {
   }
   .blog-card .ftr .stats {
     position: relative;
-    right: 20%;
+    left: 20%;
   }
 }
