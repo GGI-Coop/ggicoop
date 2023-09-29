@@ -333,7 +333,7 @@ function Home(){
                 <center>
                 <div className="anm_mod full fast">
                   <form className="form" action="">
-                    <input type="email" name="email" id="email" placeholder="example@example.com" />
+                    <input className="form-email" type="email" name="email" id="email" placeholder="example@example.com" />
                     <input type="submit" name="submit" value="subscribe" />
                   </form>
                 </div>

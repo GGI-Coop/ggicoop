@@ -11,8 +11,8 @@ import {Logo, FooterImg} from "../Utilities/Icons.js";
 import {Link} from 'react-router-dom';
 
 
-function Footer(){
-  return(
+function Footer() {
+  return (
     <footer id="footer" className="footer">
       <div className="container-fluid">
         <div className="row gy-4">
@@ -26,26 +26,28 @@ function Footer(){
           </div>
           <div className="col-lg-2 col-6 footer-links">
             <h4>Quick Links</h4>
-            <div className="flex_this">
+            <div className="footer-link">
               <ul>
                 <li><Link to="/about_us">About Us</Link></li>
                 <li><Link to="/visit_visa">Visit Visa</Link></li>
                 <li><Link to="/study_permit">Study Permit</Link></li>
-                <li><Link to="/work_visa">Work Visa</Link></li>               
+                <li><Link to="/work_visa">Work Visa</Link></li>
               </ul>
               <ul>
                 <li><Link to="/business_visa">Business Visa</Link></li>
-                <li><Link to="/immigrate">Immigration</Link></li>               
+                <li><Link to="/immigrate">Immigration</Link></li>
                 <li><Link to="/contactus">Contact Us</Link></li>
                 <li><Link to="/blogs">Blog</Link></li>
               </ul>
             </div>
-            <div><br/>
+            <div><br />
               <h4>Follow Us</h4>
-              <a href="https://www.facebook.com/GrowingGlobeImmigration/"><i class="fa fa-facebook footer_icon" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/growing_globe"><img src={Logo.twitter_logo} className="twitter_img mr-3" alt=""></img></a>
-              <a href="https://instagram.com/growingglobeimmigration?igshid=MmIxOGMzMTU="><i class="fa fa-instagram footer_icon" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/company/growing-globe-immigration-inc/"><i class="fa fa-linkedin footer_icon" aria-hidden="true"></i></a>
+              <div className="social_links">
+                <a href="https://www.facebook.com/GrowingGlobeImmigration/"><i className="fa fa-facebook footer_icon" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/growing_globe"><img src={Logo.twitter_logo} className="twitter_img mr-3" alt=""></img></a>
+                <a href="https://instagram.com/growingglobeimmigration?igshid=MmIxOGMzMTU="><i className="fa fa-instagram footer_icon" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/company/growing-globe-immigration-inc/"><i className="fa fa-linkedin footer_icon" aria-hidden="true"></i></a>
+              </div>
             </div>
 
           </div>
@@ -60,21 +62,21 @@ function Footer(){
           <div className="col-lg-2 col-6 footer-links">
             <h4>Locations</h4>
             <div className="flex_this">
-            <ul>
-              <li><Link className="footer_subtitle">Canada</Link></li>
-              <li><Link to="/contactus">Toronto </Link></li>
-              <li><Link to="/contactus">Brampton</Link></li>
-              <li><Link to="/contactus">Alberta</Link></li>
-              <li><Link className="footer_subtitle">UAE</Link></li>
-              <li><Link to="/contactus">Dubai</Link></li>
+              <ul>
+                <li><Link className="footer_subtitle">Canada</Link></li>
+                <li><Link to="/contactus">Toronto </Link></li>
+                <li><Link to="/contactus">Brampton</Link></li>
+                <li><Link to="/contactus">Alberta</Link></li>
+                <li><Link className="footer_subtitle">UAE</Link></li>
+                <li><Link to="/contactus">Dubai</Link></li>
 
-            </ul>
-            <ul>
-              <li><Link className="footer_subtitle">India</Link></li>
-              <li><Link to="/contactus">New Delhi</Link></li>
-              <li><Link to="/contactus">Jalandhar</Link></li>
-              <li><Link to="/contactus">Ahmedabad</Link></li>
-            </ul>
+              </ul>
+              <ul>
+                <li><Link className="footer_subtitle">India</Link></li>
+                <li><Link to="/contactus">New Delhi</Link></li>
+                <li><Link to="/contactus">Jalandhar</Link></li>
+                <li><Link to="/contactus">Ahmedabad</Link></li>
+              </ul>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 footer-contact text-center text-md-start">
