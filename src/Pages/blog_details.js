@@ -5,7 +5,7 @@ import Footer from "./footer.js";
 import { Img } from "../Utilities/Icons.js";
 import parse from "html-react-parser";
 import axios from "axios";
-import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, LinkedinShareButton } from 'react-share';
+import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, LinkedinShareButton, WhatsappShareButton } from 'react-share';
 import twitter from "../Utilities/logo.webp"
 
 function Blogs_Details() {
@@ -44,7 +44,7 @@ function Blogs_Details() {
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt="" />
         <div className="banner_content_3">
-          <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | {post.title}</h6>
+          <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | Blog</h6>
         </div>
         <div className="banner_content">
         <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
@@ -65,6 +65,7 @@ function Blogs_Details() {
               <iframe src={post.video} className="blog_videos" allow="autoplay"></iframe>
               </center>
               </div>
+              <div className="blog-detail-share">
               <FacebookShareButton 
                         url={"https://vercelggi.vercel.app/blog_details"}
                         quote={"Hey guys! Check out this article!"}
@@ -85,9 +86,17 @@ function Blogs_Details() {
                         hashtag="#GGI">
                         <button className="fa fa-linkedin linkedin-icon share-icons"/>
                       </LinkedinShareButton>
+
+                      <WhatsappShareButton
+                          url={"https://vercelggi.vercel.app/blog_details"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                            <button className="fa fa-whatsapp whatsapp-icon share-icons" />
+                      </WhatsappShareButton></div>
                       <br></br>
                       <br></br>
               <div className="blog_detail_para">{parse(post.body)}</div>
+              <div className="blog-detail-share">
               <FacebookShareButton 
                         url={"https://vercelggi.vercel.app/blog_details"}
                         quote={"Hey guys! Check out this article!"}
@@ -108,7 +117,19 @@ function Blogs_Details() {
                         hashtag="#GGI">
                         <button className="fa fa-linkedin linkedin-icon share-icons"/>
                       </LinkedinShareButton>
+                      
+                      <WhatsappShareButton
+                          url={"https://vercelggi.vercel.app/blog_details"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                            <button className="fa fa-whatsapp whatsapp-icon share-icons" />
+                      </WhatsappShareButton></div>
                       <br></br>
+                      <br></br>
+                      <div>
+                        <center>
+                        <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint">Book An Appointment</button></a>
+                      </center></div>
             </div>
             <div className="col-md-4">
               <div className="blog_detail_side_box">
@@ -155,7 +176,7 @@ function Blogs_Details() {
           <div className="col-md-12"></div>
           </div>
           <div className="row">
-            <div className="col-md-8">
+          <div className="col-md-8">
               <h2 className="blog_detail_section_title">{post.title}</h2>
               <hr className="blog_hr" />
               <div>
@@ -164,8 +185,8 @@ function Blogs_Details() {
                     <img className="img blog_detail_img" src={post.image} alt={post.title} />
                   </a>
                 </center>
-                
               </div>
+              <div className="blog-detail-share">
               <FacebookShareButton 
                         url={"https://vercelggi.vercel.app/blog_details"}
                         quote={"Hey guys! Check out this article!"}
@@ -186,9 +207,17 @@ function Blogs_Details() {
                         hashtag="#GGI">
                         <button className="fa fa-linkedin linkedin-icon share-icons"/>
                       </LinkedinShareButton>
+                      
+                      <WhatsappShareButton
+                          url={"https://vercelggi.vercel.app/blog_details"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                            <button className="fa fa-whatsapp whatsapp-icon share-icons" />
+                      </WhatsappShareButton></div>
                       <br></br>
                       <br></br>
               <div className="blog_detail_para">{parse(post.body)}</div>
+              <div className="blog-detail-share">
               <FacebookShareButton 
                         url={"https://vercelggi.vercel.app/blog_details"}
                         quote={"Hey guys! Check out this article!"}
@@ -208,14 +237,14 @@ function Blogs_Details() {
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <button className="fa fa-linkedin linkedin-icon share-icons"/>
-                      </LinkedinShareButton>
+                      </LinkedinShareButton></div>
                       <br></br>
                       <br></br>
                       <div>
                         <center>
                         <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint">Book An Appointment</button></a>
                       </center></div>
-            </div>
+              </div>
             <div className="col-md-4">
               <div className="blog_detail_side_box">
                 <h5 className="blog_detail_side_section_title">Recent Blogs</h5>

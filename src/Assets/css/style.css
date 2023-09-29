@@ -1326,7 +1326,7 @@
 }
 .immigrate_canada_section{
   background: #101822;
-  padding: 50px 20px 80px 20px;
+  padding: 50px 20px 10px 20px;
   height: max-content;
 }
 .immigrate_canada_sec_title{
@@ -2808,6 +2808,7 @@ ul.who_we_are_ul_2 li::before {
     margin-right: 5px;
 }
 .blog-card .ftr .stats {
+    float: right;
     position: relative;
     top: 1px;
     font-size: 14px;
@@ -2830,7 +2831,7 @@ ul.who_we_are_ul_2 li::before {
 }
 .blog-share {
   position: relative;
-  left: 30%;
+  left: 25%;
   bottom: 2%;
 }
 /*-----------------------------------------Blog Page End-----------------------------------------*/
@@ -2995,6 +2996,9 @@ ul.who_we_are_ul_2 li::before {
 .linkedin-icon {
   background-color: #027fb1;
   color: white;
+}
+.whatsapp-icon {
+  background-color: #4fe95f;
 }
 .share-icons:hover {
   scale: 1.05;
@@ -3571,6 +3575,13 @@ ul.who_we_are_ul_2 li::before {
   right: 20px;
 }
 @media (max-width: 768px) {
+  .video_sec_counter_title {
+    font-size: 14px;
+  }
+
+  .video_sec_counter_subtitle {
+    font-size: 10px;
+  }
 
   .header {
     padding: 0;
@@ -3645,6 +3656,22 @@ ul.who_we_are_ul_2 li::before {
   .blog_date {
     font-size: 14px;
     /* Adjust date font size for recent blogs */
+  }
+  .footer {
+    padding: 20px;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  .footer-link {
+    font-size: 12px;
+  }
+  .social_links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
   }
 }
 
@@ -3810,7 +3837,7 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    right: inherit;: 20%;
+    right: 20%;
   }
   .blog-card .author {
     position: relative;
@@ -3819,5 +3846,20 @@ ul.who_we_are_ul_2 li::before {
   .blog-card .ftr .stats {
     position: relative;
     left: 20%;
+  }
+  .blog_detail_side_breadcrumn {
+  font-size: 10px;
+  position: relative;
+  top: 25px;
+  }
+  .blog_detail_section_title {
+    text-align: center;
+  }
+  .Blog_section {
+    margin-right: -40px;
+    margin-left: -40px;
+  }
+  .blog-detail-share {
+    text-align: center;
   }
 }

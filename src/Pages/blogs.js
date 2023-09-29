@@ -4,7 +4,7 @@ import Header from "./header.js";
 import Footer from "./footer.js";
 import {Img, Icons, Blogs_img} from "../Utilities/Icons.js";
 import { Link } from "react-router-dom";
-import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, LinkedinShareButton } from 'react-share';
+import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, LinkedinShareButton, WhatsappShareButton } from 'react-share';
 import twitter from "../Utilities/logo.webp"
 import axios from "axios";
 
@@ -64,7 +64,6 @@ function Blogs() {
 
   return (
     <div>
-      <Header />
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt=""></img>
         <div className="banner_content">
@@ -122,14 +121,20 @@ function Blogs() {
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button className="fa fa-linkedin linkedin-icon share-icons" />
-                        </LinkedinShareButton></div>
+                        </LinkedinShareButton>
+
+                        <WhatsappShareButton
+                          url={"https://vercelggi.vercel.app/blog_details"}
+                          quote={"Hey guys! Check out this article!"}
+                          hashtag="#GGI">
+                            <button className="fa fa-whatsapp whatsapp-icon share-icons" />
+                        </WhatsappShareButton></div>
                     </div></Link>
                 </div>)
             })}
           </div>
         </div>
       </div>
-      <Footer />
     </div >
   );
 }
