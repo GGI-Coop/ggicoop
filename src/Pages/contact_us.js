@@ -114,6 +114,15 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
+                        <p className="contact-card-description"><Link to="https://maps.app.goo.gl/W9zNEnjbgZ23YJhe7"target="_blank" rel="noreferrer">1280 Finch Ave W, Toronto, ON M3J 3K6, Unit 601</Link></p>
+                      </div>
+                    </div>
+                    <hr className="hr_sty"/>
+                    <div className="conatact_add_box anm_mod full fast">
+                      <div>
+                        <i className="fa fa-arrow-right red" aria-hidden="true"></i>
+                      </div>
+                      <div>
                         <p className="contact-card-description"><Link to="https://maps.app.goo.gl/Y7GiULYc1cikEE46A" target="_blank" rel="noreferrer">4907 52 Ave, Whitecourt, Alberta</Link></p>
                         <p className="contact-card-description">Phone No.:<Link to="tel:+1(437) 770-7953"> +1(437) 770-7953</Link>, <Link to="tel:+1(647) 207-6121">+1(647) 207-6121</Link></p>
                       </div>

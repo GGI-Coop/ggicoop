@@ -3844,7 +3844,7 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    left: -40%;
+    left: -35%;
   }
   .blog-card .author {
     position: relative;
@@ -3875,5 +3875,16 @@ ul.who_we_are_ul_2 li::before {
   .twitter-fix {
     position: relative;
     top: 13px;
+  }
+  .team_title{
+    font-size: 25px;
+  }
+  .team_card_box {
+    padding: 0 50px;
+  }
+  .team_card {
+    margin-bottom: 40px;
+    margin-right: 30px;
+    height: 350px;
   }
 }

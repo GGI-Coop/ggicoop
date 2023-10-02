@@ -65,7 +65,7 @@ function Footer() {
               <ul>
                 <li><Link className="footer_subtitle">Canada</Link></li>
                 <li><Link to="/contactus">Toronto </Link></li>
-                <li><Link to="/contactus">Brampton</Link></li>
+                <li><Link to="/contactus">Mississauga</Link></li>
                 <li><Link to="/contactus">Alberta</Link></li>
                 <li><Link className="footer_subtitle">UAE</Link></li>
                 <li><Link to="/contactus">Dubai</Link></li>
