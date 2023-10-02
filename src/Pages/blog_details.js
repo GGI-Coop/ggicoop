@@ -41,7 +41,13 @@ function Blogs_Details() {
   if (post.video !== "") {
   return (
     <div>
-      
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content='Growing Globe Immigration'/>
+    <meta property="og:image" content={post.image}/>
+    <meta property="og:description" content={post.description}/>
+    <meta property="og:url" content={`growingglobeimmigration.com/blog_details/${post.id}`}/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt="" />
         <div className="banner_content_3">
