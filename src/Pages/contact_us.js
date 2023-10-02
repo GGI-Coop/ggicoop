@@ -84,10 +84,6 @@ function ContactUs(){
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
-                      <div>
-                        <p className="contact-card-description"><Link to="https://goo.gl/maps/1Hvd7ya1g71mF7SZ7" target="_blank" rel="noreferrer">2 County Court Blvd, Suite 215, Brampton, ON Canada L6W 3W8</Link></p>
-                        <p className="contact-card-description"><Link to="tel:+1 647 705 5403">Phone No.: +1 647 705 5403</Link></p>
-                      </div>
                     </div>
                     <hr className="hr_sty"/>
                     <div className="conatact_add_box anm_mod full fast">
@@ -103,9 +99,6 @@ function ContactUs(){
                     <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
-                      </div>
-                      <div>
-                        <p className="contact-card-description"><Link to="https://maps.app.goo.gl/fjWHdzWqrpQKq8KCA"target="_blank" rel="noreferrer">2 Robert speck parkways, Suite 732, Mississauga, Ontario</Link></p>
                       </div>
                     </div>
                     <hr className="hr_sty"/>

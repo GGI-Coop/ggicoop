@@ -195,6 +195,9 @@ function Home(){
                 <div className="consult_img"><img src={Img.p6} className="consultants" alt=""></img></div>
                 <div className="consult_img"><img src={Img.p7} className="consultants" alt=""></img></div>
                 <div className="consult_img"><img src={Img.p8} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p9} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p10} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p11} className="consultants" alt=""></img></div>
               </ScrollCarousel>
               <center>
                 <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>

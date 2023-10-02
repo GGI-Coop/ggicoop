@@ -51,7 +51,7 @@ function Blogs_Details() {
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt="" />
         <div className="banner_content_3">
-          <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> <a href="growingglobeimmigration.com/blogs">| Blog</a></h6>
+          <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | Blog</h6>
         </div>
         <div className="banner_content">
         <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
@@ -170,7 +170,7 @@ function Blogs_Details() {
     <div className="banner_section">
       <img src={Img.blog_banner} className="banner_img" alt="" />
       <div className="banner_content_3">
-        <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | {post.title}</h6>
+        <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | Blog</h6>
       </div>
       <div className="banner_content">
         <Link to="https://calendly.com/growingglobeimmigration" target="_blank" rel="noreferrer">
