@@ -3868,6 +3868,10 @@ ul.who_we_are_ul_2 li::before {
   .blog-detail-share {
     text-align: center;
   }
+  .blog_videos {
+    width: 100%;
+    height: 300px;
+  }
   .twitter-fix {
     position: relative;
     top: 13px;

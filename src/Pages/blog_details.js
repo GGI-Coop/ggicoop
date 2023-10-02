@@ -6,7 +6,8 @@ import { Img } from "../Utilities/Icons.js";
 import parse from "html-react-parser";
 import axios from "axios";
 import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, LinkedinShareButton, WhatsappShareButton } from 'react-share';
-import twitter from "../Utilities/logo.webp"
+import twitter from "../Utilities/logo.webp";
+import blogs from "../Pages/blogs.js";
 
 function Blogs_Details() {
   const [posts, setPosts] = useState([]);
@@ -34,7 +35,6 @@ function Blogs_Details() {
     const selectedPost = posts.find((p) => p.id === parseInt(id));
     setPost(selectedPost);
   }, [id, posts]);
-
   if (!post) {
     return <div>Loading...</div>;
   }
@@ -42,16 +42,16 @@ function Blogs_Details() {
   return (
     <div>
     <meta name="theme-color" content="#ffffff" />
-    <meta property="og:title" content='Growing Globe Immigration'/>
-    <meta property="og:image" content={post.image}/>
-    <meta property="og:description" content={post.description}/>
-    <meta property="og:url" content={`growingglobeimmigration.com/blog_details/${post.id}`}/>
+    <meta property="og:title" content={`growingglobeimmigration.com/blog_details/${post.title}`}/>
+    <meta property="og:image" content={`growingglobeimmigration.com/blog_details/${post.image}`}/>
+    <meta property="og:description" content={`growingglobeimmigration.com/blog_details/${post.description}`}/>
+    <meta property="og:url" content={`growingglobeimmigration.com/blog_details/${post.title}`}/>
     <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='627' />
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt="" />
         <div className="banner_content_3">
-          <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | Blog</h6>
+          <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> <a href="growingglobeimmigration.com/blogs">| Blog</a></h6>
         </div>
         <div className="banner_content">
         <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
