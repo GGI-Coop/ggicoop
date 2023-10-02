@@ -2986,6 +2986,9 @@ ul.who_we_are_ul_2 li::before {
   height: 35px;
   border: none;
 }
+.twitter-fix {
+  
+}
 .twitter_img {
   margin-bottom: 10px;
 }
@@ -3673,6 +3676,10 @@ ul.who_we_are_ul_2 li::before {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
   }
+  .twitter-fix {
+    position: relative;
+    top: 13px;
+  }
 }
 
 @media (max-width: 464px) {
@@ -3837,7 +3844,7 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    right: 20%;
+    left: -40%;
   }
   .blog-card .author {
     position: relative;
@@ -3860,5 +3867,9 @@ ul.who_we_are_ul_2 li::before {
   }
   .blog-detail-share {
     text-align: center;
+  }
+  .twitter-fix {
+    position: relative;
+    top: 13px;
   }
 }

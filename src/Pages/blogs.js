@@ -103,28 +103,28 @@ function Blogs() {
                       </div>
                       <div className="blog-share anm full fast">
                         <FacebookShareButton
-                          url={"growingglobeimmigration.com/blogs"}
+                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button round="true" className="fa fa-facebook facebook-icon share-icons" />
                         </FacebookShareButton>
 
                         <TwitterShareButton
-                          url={"growingglobeimmigration.com/blogs"}
+                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <img className="share-icons" src={twitter}></img>
                         </TwitterShareButton>
 
                         <LinkedinShareButton
-                          url={"growingglobeimmigration.com/blogs"}
+                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button className="fa fa-linkedin linkedin-icon share-icons" />
                         </LinkedinShareButton>
 
                         <WhatsappShareButton
-                          url={"growingglobeimmigration.com/blogs"}
+                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                             <button className="fa fa-whatsapp whatsapp-icon share-icons" />
