@@ -91,7 +91,7 @@ function Study_permit(){
                     <li className="sdm_stream_ul_li anm_mod full fast">Only Online Application Submíssion</li>
                     <li className="sdm_stream_ul_li anm_mod full fast">Mandatory GIC of at least 10,000 or more</li>
                     <li className="sdm_stream_ul_li anm_mod full fast">Applicable to certain Asian and African countries</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Up to 85% of Sucess Rate</li>
+                    <li className="sdm_stream_ul_li anm_mod full fast">Up to 85% of Success Rate</li>
                     <li className="sdm_stream_ul_li anm_mod full fast">IELTS mandatory</li>
                     <li className="sdm_stream_ul_li anm_mod full fast">1-year Tuition Fee to be paid in advance</li>
                   </ul>
