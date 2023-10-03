@@ -2453,7 +2453,6 @@ ul.who_we_are_ul_2 li::before {
 }
 /*-----------------------------------------------------------------------------*/
 .blog-slider {
-  width: 95%;
   position: relative;
   max-width: 800px;
   margin: auto;
@@ -3923,8 +3922,6 @@ ul.who_we_are_ul_2 li::before {
   .team_card_experience_box{
     font-size: 12px;
     padding: 3px 6px;
-  }
-  .team_card_appointment{
   }
   .languages_ul {
     font-size: 12px;
