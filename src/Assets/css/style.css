@@ -3900,9 +3900,7 @@ ul.who_we_are_ul_2 li::before {
     width: fit-content;
   }
   .team_card_img {
-    width: 120%;
-    top: 0;
-    left: 0;
+    width: 110%;
   }
   .opacity-layer {
     width: 110%;
