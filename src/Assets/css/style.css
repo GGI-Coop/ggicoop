@@ -3754,6 +3754,7 @@ ul.who_we_are_ul_2 li::before {
     width: 300px;
     padding: 10px 0px 0px 0px;
     position: relative;
+    margin-left: 50px;
     text-align: left;
     top: 10px;
   }
