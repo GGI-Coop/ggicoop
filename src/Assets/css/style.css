@@ -2653,7 +2653,7 @@ ul.who_we_are_ul_2 li::before {
     width: 100%;
   }
 }
-.blog-slider .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
+ .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
   bottom: 10px;
   left: 0;
   width: 100%;
