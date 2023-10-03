@@ -3929,7 +3929,8 @@ ul.who_we_are_ul_2 li::before {
   .contact_us_today_text {
     font-size: 20px;
   }
-  .contact_us_today_section_about_us{
+  .contact_us_today_section {
     padding-left: 5px;
+    padding-right: 5px;
   }
 }
