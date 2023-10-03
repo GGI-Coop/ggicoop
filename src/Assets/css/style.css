@@ -3590,7 +3590,7 @@ ul.who_we_are_ul_2 li::before {
 }
 @media (max-width: 768px) {
   .video_sec_counter_title {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .video_sec_counter_subtitle {
@@ -3754,7 +3754,7 @@ ul.who_we_are_ul_2 li::before {
     width: 300px;
     padding: 10px 0px 0px 0px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 10px;
     text-align: left;
     top: 10px;
   }
@@ -3800,11 +3800,11 @@ ul.who_we_are_ul_2 li::before {
   }
 
   .video_sec_counter_title {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .video_sec_counter_subtitle {
-    font-size: 10px;
+    font-size: 12px;
   }
   .video_sec_counter_box{
     column-gap: 50px;
