@@ -3855,7 +3855,7 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    left: -35%;
+    left: -33%;
   }
   .blog-card .author {
     position: relative;
@@ -3865,9 +3865,9 @@ ul.who_we_are_ul_2 li::before {
     left: 5%;
   }
   .blog_detail_side_breadcrumn {
-  font-size: 10px;
-  position: relative;
-  top: 25px;
+    font-size: 10px;
+    position: relative;
+    top: 25px;
   }
   .blog_detail_section_title {
     text-align: center;
@@ -3901,6 +3901,8 @@ ul.who_we_are_ul_2 li::before {
   }
   .team_card_img {
     width: 120%;
+    top: 0;
+    left: 0;
   }
   .opacity-layer {
     width: 110%;
