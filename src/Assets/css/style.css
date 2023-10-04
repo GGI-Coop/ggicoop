@@ -2997,9 +2997,6 @@ ul.who_we_are_ul_2 li::before {
   height: 35px;
   border: none;
 }
-.twitter-fix {
-  
-}
 .twitter_img {
   margin-bottom: 10px;
 }
@@ -3878,6 +3875,9 @@ ul.who_we_are_ul_2 li::before {
   .Blog_section {
     margin-right: -40px;
     margin-left: -40px;
+    background: #101822;
+    padding: 65px 60px 120px 60px;
+}
   }
   .blog-detail-share {
     text-align: center;

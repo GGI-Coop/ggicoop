@@ -3,7 +3,6 @@ import Header from "./header.js";
 import Footer from "./footer.js";
 import {Img} from "../Utilities/Icons.js";
 import VideoPlayer from "react-background-video-player";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
 import ScrollCarousel from 'scroll-carousel-react';
