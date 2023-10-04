@@ -167,8 +167,9 @@ function Study_permit(){
                     <p className="get_ready_para">For those applying through the non-SDS stream, the documentation requirements may differ slightly. Our consultancy is experienced in handling both SDS and non-SDS applications and can provide you with personalized solutions based on your stream.</p>
                     <p className="get_ready_para">At our consultancy, we understand the intricacies of the study permit application process for both SDS and non-SDS streams and are here to assist you every step of the way. Our knowledgeable consultants will ensure that you have a smooth experience, from document preparation to submitting your application.</p>
                     <p className="get_ready_para">Contact us today to start your journey towards a world-class education in Canada. Our team of experts is ready to provide you with the guidance and support you need to navigate the study permit application process, tailored to your specific circumstances and stream. Let us help you turn your aspirations of studying in Canada into a reality.</p>
-
                  </div>
+                 <center><button className="business-visit-visa">Book An Appointment</button></center>
+
               </div>
             </div>
           </div>

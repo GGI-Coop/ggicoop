@@ -169,7 +169,7 @@ function Business_visa(){
                     <h3 className="express_entry_title">Self-Employed Visa</h3>
                     <p className="get_ready_para">Are you a cultural, artistic, or athletic professional with aspirations to become self-employed in Canada? The Self-Employed Visa provides the opportunity to showcase your talent and contribute to the vibrant Canadian landscape. Our consultancy will guide you through the application process, highlighting your unique abilities.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
-                 <button className="embark_book_appoint_2">Book An Appointment</button>
+                 <button className="business-visit-visa">Book An Appointment</button>
               </a>
                     
                  </div>
