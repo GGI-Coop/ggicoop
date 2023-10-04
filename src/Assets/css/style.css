@@ -1195,7 +1195,7 @@
   justify-content: space-between;
   padding: 0 3px;
   font-family: "Montserrat";
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.5px;
   color: #fff;
@@ -1210,7 +1210,7 @@
   justify-content: space-between;
   padding: 0 3px;
   font-family: "Montserrat";
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.5px;
   color: #ED1C24!important;
@@ -2454,7 +2454,7 @@ ul.who_we_are_ul_2 li::before {
 /*-----------------------------------------------------------------------------*/
 .blog-slider {
   position: relative;
-  max-width: 800px;
+  max-width: 100px;
   margin: auto;
   background: #fff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
