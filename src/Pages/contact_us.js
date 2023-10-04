@@ -3,9 +3,6 @@ import Header from "./header.js";
 import Footer from "./footer.js";
 import {Img, Icons} from "../Utilities/Icons.js";
 import {Link} from 'react-router-dom';
-import GoToTop from "../Components/Scroll.js"
-import {Content, RouterLink} from "../Components/Styling.js"
-
 
 function ContactUs(){
   const responsive = {
