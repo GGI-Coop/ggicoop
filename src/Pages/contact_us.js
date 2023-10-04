@@ -3,6 +3,8 @@ import Header from "./header.js";
 import Footer from "./footer.js";
 import {Img, Icons} from "../Utilities/Icons.js";
 import {Link} from 'react-router-dom';
+import GoToTop from "../Components/Scroll.js"
+import {Content, RouterLink} from "../Components/Styling.js"
 
 
 function ContactUs(){
@@ -42,10 +44,11 @@ function ContactUs(){
       items: 1
     }
   };
+
   return(
     <div>
       <Header />
-        <div className="banner_section">
+        <div className="banner_section" id="banner">
           <img src={Img.contactus_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
               <a href="https://calendly.com/growingglobeimmigration">
@@ -84,21 +87,9 @@ function ContactUs(){
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
-                    </div>
-                    <hr className="hr_sty"/>
-                    <div className="conatact_add_box anm_mod full fast">
-                      <div>
-                        <i className="fa fa-arrow-right red" aria-hidden="true"></i>
-                      </div>
                       <div>
                         <p className="contact-card-description"><Link to="https://goo.gl/maps/WxmtvhTTHSzKpmNE8" target="_blank" rel="noreferrer">218 Export Blvd Mississauga Suite 301</Link></p>
                         <p className="contact-card-description"><Link to="tel:+1 647 705 5403">Phone No.: +1 647 705 5403</Link></p>
-                      </div>
-                    </div>
-                    <hr className="hr_sty"/>
-                    <div className="conatact_add_box anm_mod full fast">
-                      <div>
-                        <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                     </div>
                     <hr className="hr_sty"/>
@@ -192,7 +183,6 @@ function ContactUs(){
             </div>
           </div>
         </div>
-
       <Footer />
     </div>
   );

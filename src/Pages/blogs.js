@@ -72,7 +72,7 @@ function Blogs() {
             <button className="embark_book_appoint_2">Book An Appointment</button></Link>
         </div>
       </div>
-      <div className="Blog_section animation">
+      <div className="Blog_section animation anm_mod full fast">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">

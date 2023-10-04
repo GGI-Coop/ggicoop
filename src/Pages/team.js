@@ -17,14 +17,13 @@ function Team(){
               </div>
             </div>
             <div className="team_card_box">
-              <div className="row ">
+              <div className="row">
                 <div className="col-md-6 animation">
                   <div className="team_card anm_mod full fast ">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_1} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Vinay Sachdeva</h5>
                         <h5 className="team_card_name">RCIC #: R707205</h5>
@@ -46,13 +45,12 @@ function Team(){
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 animation">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card anm_mod full fast">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_15} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Sargun Singh</h5>
                       </center>
@@ -88,7 +86,6 @@ function Team(){
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_6} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Bhavuk Arora</h5>
                         <h5 className="team_card_name">RCIC #: R710982</h5>
@@ -115,13 +112,12 @@ function Team(){
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 animation">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card anm_mod full fast">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_14} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Karan Suri</h5>
                         <h5 className="team_card_name">RCIC #: R517850</h5>
@@ -157,7 +153,6 @@ function Team(){
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_7} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Harinder Kahlon</h5>
                         <h5 className="team_card_name">RCIC #: R710204</h5>
@@ -179,13 +174,12 @@ function Team(){
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 animation">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card anm_mod full fast">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_12} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Sukhwinder Singh</h5>
                         <h5 className="team_card_name">RCIC #: R708954</h5>
@@ -220,7 +214,6 @@ function Team(){
                       <center>
                           <div className="image-container">
                             <img alt="" src={Img.team_5} className="team_card_img"></img>
-                            <div className="opacity-layer"></div>
                           </div>
                         <h5 className="team_card_name">Umer Sheikh</h5>
                         <h5 className="team_card_name">RCIC #: R707509</h5>
@@ -247,13 +240,12 @@ function Team(){
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 animation">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card anm_mod full fast">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_9} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Piyush Jain</h5>
                         <h5 className="team_card_name">RCIC #: R705479</h5>
@@ -289,7 +281,6 @@ function Team(){
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_8} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Sultan Singh Rana</h5>
                         <h5 className="team_card_name">RCIC #R710368: </h5>
@@ -318,13 +309,12 @@ function Team(){
                     </div>
                   </div>
                 </div>             
-                <div className="col-md-6 animation">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card anm_mod full fast">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_3} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Amandeep Kaur</h5>
                         <h5 className="team_card_name">RCIC #: R711248</h5>
@@ -361,7 +351,6 @@ function Team(){
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_2} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Tabinda Khan</h5>
                         <h5 className="team_card_name">RCIC #: R710562</h5>
@@ -389,13 +378,12 @@ function Team(){
                     </div>
                   </div>
                 </div>             
-                <div className="col-md-6 animation">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card anm_mod full fast">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_13} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Ebhote Francis</h5>
                         <h5 className="team_card_name">RCIC #: R506578</h5>
@@ -431,7 +419,6 @@ function Team(){
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_16} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Parminder Singh Chahal</h5>
                         <h5 className="team_card_name">RCIC #: R705477</h5>
@@ -454,13 +441,12 @@ function Team(){
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 animation">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card anm_mod full fast">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_4} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Victoria</h5>
                       </center>
@@ -489,7 +475,6 @@ function Team(){
                       <center>
                         <div className="image-container">
                           <img alt="" src={Img.team_17} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Gurkanwar Brar</h5>
                         <h5 className="team_card_name">RCIC #: R708421</h5>
@@ -518,11 +503,8 @@ function Team(){
                   </div>
                 </div>
               </div>          
-              
-
             </div>
           </div>
-
         </div>
       <Footer />
     </div>

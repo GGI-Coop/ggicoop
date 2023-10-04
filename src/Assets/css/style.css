@@ -1707,6 +1707,11 @@
   margin-right: 30px;
   height: 300px;
 }
+.team_card:hover {
+  scale: 1.05;
+  box-shadow: 0 16px 38px -12px #fff, 0 4px 25px 0px #fff, 0 8px 10px -5px #fff;
+  transition: 0.5s;
+}
 .team_card_inner_1{
   flex-basis: 40%;
 }
@@ -3111,13 +3116,14 @@ ul.who_we_are_ul_2 li::before {
 .footer_icon{
   background-color: #212239;
   border: none;
-  font-size: 15px;
+  font-size: 18px;
   padding: 11px 13px;
   border-radius: 20px;
   margin-right: 10px;
   width: 40px;
   height: 40px;
   margin-bottom: 10px;
+  text-align: center;
 }
 /*--------------------------------------------------------------------------------------------*/
 
@@ -3223,9 +3229,9 @@ ul.who_we_are_ul_2 li::before {
   font-family: "Montserrat";
   font-size: 18px;
   text-align: center;
+  margin-top: -50px;
   padding-top: 10px;
 }
-
 .ul li{
   font-family: "Montserrat";
   font-size: 14px;
@@ -3311,8 +3317,8 @@ ul.who_we_are_ul_2 li::before {
   margin-top: 10vh;
   padding: 2rem 40px;*/
 }
-.animation .anm_mod {
-  opacity: 0;
+.animation .anm_mod .mobile_anm{
+  opacity: 0%;
   transform: translate3d(0, 100%, 0);
   transition: all 1.2s ease;
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -3330,25 +3336,25 @@ ul.who_we_are_ul_2 li::before {
   background: rgba(250, 250, 250, 0.5);
   box-shadow: 0px 4px 8px rgba(250, 250, 250, 0.3);*/
 }
-.animation .anm_mod.full {
+.animation .anm_mod.full .mobile_anm{
 /*  width: 100%;*/
 /*  font-size: 3rem;*/
 }
-.animation .anm_mod.left {
+.animation .anm_mod.left .mobile_anm{
   transform: translate3d(-100%, 0, 100%);
 }
-.animation .anm_mod.right {
+.animation .anm_mod.right .mobile_anm{
   transform: translate3d(100%, 0, 0);
 }
-.animation .anm_mod.delay {
+.animation .anm_mod.delay .mobile_anm{
   transition: all 2s ease;
 }
-.animation .anm_mod.fast {
+.animation .anm_mod.fast .mobile_anm{
   transition: all 0.8 ease;
   z-index: 1;
 }
 
-.animation .anm_mod.active {
+.animation .anm_mod.active .mobile_anm{
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
@@ -3530,8 +3536,6 @@ ul.who_we_are_ul_2 li::before {
   letter-spacing: 0.5px;
   border: 2px solid #fff;
 }
-
-
 .animation {
   /*display: flex;
   justify-content: center;
@@ -3539,7 +3543,7 @@ ul.who_we_are_ul_2 li::before {
   padding: 2rem 40px;*/
 }
 .animation .anm_mod {
-  opacity: 0;
+  opacity: 0%;
   transform: translate3d(0, 100%, 0);
   transition: all 1.2s ease;
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -3876,7 +3880,7 @@ ul.who_we_are_ul_2 li::before {
     margin-right: -40px;
     margin-left: -40px;
     background: #101822;
-    padding: 65px 60px 120px 60px;
+    padding: 25px 60px 120px 60px;
   }
   .blog-detail-share {
     text-align: center;
@@ -3936,5 +3940,16 @@ ul.who_we_are_ul_2 li::before {
   .contact_us_today_section_about_us {
     padding-left: 5px;
     padding-right: 5px;
+  }
+  .animation .anm_mod{
+    opacity: 100%;
+    transform: translate3d(0, 0, 0);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+  .footer-links {
+    font-size: 11px;
+  }
+  .team_mobile_fix {
+    margin-bottom: -30px;
   }
 }

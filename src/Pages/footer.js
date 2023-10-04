@@ -9,7 +9,7 @@ import React from "react";
 // import "./../Assets/js/swiper.min.js";
 import {Logo, FooterImg} from "../Utilities/Icons.js";
 import {Link} from 'react-router-dom';
-
+import ScrollToTop from "react-scroll-to-top";
 
 function Footer() {
   return (
@@ -28,16 +28,16 @@ function Footer() {
             <h4>Quick Links</h4>
             <div className="footer-link">
               <ul>
-                <li><Link to="/about_us">About Us</Link></li>
-                <li><Link to="/visit_visa">Visit Visa</Link></li>
-                <li><Link to="/study_permit">Study Permit</Link></li>
-                <li><Link to="/work_visa">Work Visa</Link></li>
+                <li><a href="/about_us">About Us</a></li>
+                <li><a href="/visit_visa">Visit Visa</a></li>
+                <li><a href="/study_permit">Study Permit</a></li>
+                <li><a href="/work_visa">Work Visa</a></li>
               </ul>
               <ul>
-                <li><Link to="/business_visa">Business Visa</Link></li>
-                <li><Link to="/immigrate">Immigration</Link></li>
-                <li><Link to="/contactus">Contact Us</Link></li>
-                <li><Link to="/blogs">Blog</Link></li>
+                <li><a href="/business_visa">Business Visa</a></li>
+                <li><a href="/immigrate">Immigration</a></li>
+                <li><a href="/contactus">Contact Us</a></li>
+                <li><a href="/blogs">Blog</a></li>
               </ul>
             </div>
             <div><br />
@@ -63,19 +63,19 @@ function Footer() {
             <h4>Locations</h4>
             <div className="flex_this">
               <ul>
-                <li><Link className="footer_subtitle">Canada</Link></li>
-                <li><Link to="/contactus">Toronto </Link></li>
-                <li><Link to="/contactus">Mississauga</Link></li>
-                <li><Link to="/contactus">Alberta</Link></li>
-                <li><Link className="footer_subtitle">UAE</Link></li>
-                <li><Link to="/contactus">Dubai</Link></li>
+                <li><a className="footer_subtitle">Canada</a></li>
+                <li><a href="/contactus">Toronto </a></li>
+                <li><a href="/contactus">Mississauga</a></li>
+                <li><a href="/contactus">Alberta</a></li>
+                <li><a className="footer_subtitle">UAE</a></li>
+                <li><a href="/contactus">Dubai</a></li>
 
               </ul>
               <ul>
-                <li><Link className="footer_subtitle">India</Link></li>
-                <li><Link to="/contactus">New Delhi</Link></li>
-                <li><Link to="/contactus">Jalandhar</Link></li>
-                <li><Link to="/contactus">Ahmedabad</Link></li>
+                <li><a className="footer_subtitle">India</a></li>
+                <li><a href="/contactus">New Delhi</a></li>
+                <li><a href="/contactus">Jalandhar</a></li>
+                <li><a href="/contactus">Ahmedabad</a></li>
               </ul>
             </div>
           </div>

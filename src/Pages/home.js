@@ -7,6 +7,7 @@ import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
 import ScrollCarousel from 'scroll-carousel-react';
 import video from "../Utilities/website.mp4";
+import CountUp from "react-countup";
 
 function Home(){
   const responsive = {
@@ -69,15 +70,15 @@ function Home(){
                 <div className="col-md-12">
                   <div className="video_sec_counter_box">
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title">1500+</h3>
+                      <h3 className="video_sec_counter_title"><CountUp delay={1} end={1500} duration={1}/>+</h3>
                       <h5 className="video_sec_counter_subtitle">List of Approvals</h5>
                     </div>
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title">300+</h3>
+                      <h3 className="video_sec_counter_title"><CountUp delay={1} end={300} duration={1}/>+</h3>
                       <h5 className="video_sec_counter_subtitle">Ongoing Files</h5>
                     </div>
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title">48 Hours</h3>
+                      <h3 className="video_sec_counter_title"><CountUp delay={1} end={48} duration={1}/> Hours</h3>
                       <h5 className="video_sec_counter_subtitle">Current Processing Time*</h5>
                     </div>
                   </div>
