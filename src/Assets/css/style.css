@@ -2453,6 +2453,7 @@ ul.who_we_are_ul_2 li::before {
 }
 /*-----------------------------------------------------------------------------*/
 .blog-slider {
+  width: 95%;
   position: relative;
   max-width: 800px;
   margin: auto;
@@ -2653,7 +2654,7 @@ ul.who_we_are_ul_2 li::before {
     width: 100%;
   }
 }
- .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
+.blog-slider .swiper-container-horizontal > .swiper-pagination-bullets, .blog-slider .swiper-pagination-custom, .blog-slider .swiper-pagination-fraction {
   bottom: 10px;
   left: 0;
   width: 100%;
@@ -2714,7 +2715,7 @@ ul.who_we_are_ul_2 li::before {
 /*----------------------------------------Blog Page Start----------------------------------------*/
 .Blog_section{
   background: #101822;
-  padding: 65px 60px 120px 60px;
+  padding: 65px 90px 120px 90px;
 }
 .blog_section_title{
   font-family: "Montserrat";

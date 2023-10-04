@@ -139,6 +139,4 @@ function Blogs() {
     </div >
   );
 }
-
-
 export default Blogs;
