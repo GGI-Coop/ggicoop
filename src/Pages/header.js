@@ -1,6 +1,7 @@
 import React from "react";
 import {NavLink} from 'react-router-dom'
 import "./../Assets/css/style.css";
+import "./../Assets/css/responsive.css";
 import {Logo} from "../Utilities/Icons.js";
 import {Link} from 'react-router-dom';
 

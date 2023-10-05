@@ -12,14 +12,14 @@ function Team(){
             <div className="row mb_50">
               <div className="col-md-12 ">
                 <center>
-                  <h2 className="team_title  anm_mod full fast">UNLOCKING CANADA’S POTENTIAL:<br/> DISCOVER GGI’S IMPRESSIVE TEAM <br/>OF 13 RCICS</h2>
+                  <h2 className="team_title">UNLOCKING CANADA’S POTENTIAL:<br/> DISCOVER GGI’S IMPRESSIVE TEAM <br/>OF 13 RCICS</h2>
                 </center>
               </div>
             </div>
             <div className="team_card_box">
               <div className="row">
-                <div className="col-md-6 animation">
-                  <div className="team_card anm_mod full fast ">
+                <div className="col-md-6">
+                  <div className="team_card ">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
@@ -45,8 +45,8 @@ function Team(){
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 animation team_mobile_fix">
-                  <div className="team_card anm_mod full fast">
+                <div className="col-md-6">
+                  <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">

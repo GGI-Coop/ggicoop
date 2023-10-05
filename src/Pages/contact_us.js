@@ -61,7 +61,7 @@ function ContactUs(){
               </div>
             </div>
             <div className="row ">
-              <div className="col-md-4">
+              <div className="col-md-4 contact-space">
                 <div className="contact-card contact-card-contact">
                   <div className="contact-card-image anm_mod full fast">
                     <img className="img" src={Img.contact_canada} ></img>

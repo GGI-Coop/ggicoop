@@ -1193,7 +1193,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3px;
+  padding: 4px 3px;
   font-family: "Montserrat";
   font-size: 15px;
   font-weight: 500;
@@ -1234,7 +1234,7 @@
   height: 800px;
   align-items: end;
   display: flex;
-    position: relative;
+  position: relative;
 }
 .video_btn_img{
   margin-top: 20px;
@@ -2167,7 +2167,13 @@
   background: white;
   width: 100%;
 }
-
+.study_permit_img_2 {
+  background: white;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  top: 30%;
+}
 .read_more_btn{
   font-family: "Montserrat";
   font-size: 14px;
@@ -2361,7 +2367,7 @@ ul.who_we_are_ul_2 li::before {
   margin-right: 0.5rem;
 }
 .logo_img{
-  height: 64px;
+  height: 90px;
   width: initial;
   margin: 25px 0;
 }
@@ -2442,7 +2448,7 @@ ul.who_we_are_ul_2 li::before {
 /*------------------------------Testimonials------------------------------------*/
 .testimonials_sec{
   background-color: #101822;
-  padding: 10px 35px 60px 35px;
+  padding: 10px 300px 60px 300px;
   box-sizing: border-box;
 }
 .testimonials h2 {
@@ -2468,6 +2474,9 @@ ul.who_we_are_ul_2 li::before {
   border-radius: 25px;
   height: 400px;
   transition: all 0.3s;
+}
+.blog-slider__content {
+  width: fit-content;
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
@@ -2991,7 +3000,7 @@ ul.who_we_are_ul_2 li::before {
   font-size: 16px;
   color: #fff;
   text-align: justify;
-  margin-top: 100px;
+  margin-top: 8px;
 }
 /*------------------------------------------Visit Visa End------------------------------------------*/
 /*-----------------------------------------Blog Details Start-----------------------------------------*/
@@ -3001,9 +3010,15 @@ ul.who_we_are_ul_2 li::before {
   width: 35px;
   height: 35px;
   border: none;
+  margin-top: 10px;
+  margin-bottom: -13px;
 }
 .twitter_img {
   margin-bottom: 10px;
+}
+.twitter-fix {
+  position: relative;
+  top: -13px;
 }
 .facebook-icon {
   background-color: #3c5997;
@@ -3033,6 +3048,7 @@ ul.who_we_are_ul_2 li::before {
   margin-bottom: 40px;
   margin-top: 20px;
   opacity: 1;
+  display: none;
 }
 .blog_detail_img{
   margin-bottom:20px;
@@ -3089,6 +3105,7 @@ ul.who_we_are_ul_2 li::before {
   text-align: left;
   margin-bottom: 5px;
   line-height: 20px;
+  margin-top: 0;
 }
 .blog_date{
   float: right;
@@ -3096,9 +3113,11 @@ ul.who_we_are_ul_2 li::before {
   font-family: "Montserrat";
   color: #ffffff;
   font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .blog_detail_side_hr{
-  border-top: 1px solid #d80100;
+  border: none;
   margin-bottom: 20px;
   margin-top: 20px;
   opacity: 1;
@@ -3124,6 +3143,13 @@ ul.who_we_are_ul_2 li::before {
   height: 40px;
   margin-bottom: 10px;
   text-align: center;
+}
+.footer-align {
+  text-align: center;
+}
+.img-adjust {
+  position: relative;
+  left: 50px;
 }
 /*--------------------------------------------------------------------------------------------*/
 
@@ -3223,6 +3249,7 @@ ul.who_we_are_ul_2 li::before {
 .express_entry_img{
   width: 100%;
   border-radius: 6px;
+  position: relative;
 }
 
 .express_entry_title{
@@ -3231,6 +3258,7 @@ ul.who_we_are_ul_2 li::before {
   text-align: center;
   margin-top: -50px;
   padding-top: 10px;
+  position: relative;
 }
 .ul li{
   font-family: "Montserrat";
@@ -3688,14 +3716,10 @@ ul.who_we_are_ul_2 li::before {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
   }
-  .twitter-fix {
-    position: relative;
-    top: 13px;
-  }
+  
 }
 
 @media (max-width: 464px) {
-
   /*Home Page*/
   .book_appoint_section{
     padding-right: 0%;
@@ -3773,7 +3797,7 @@ ul.who_we_are_ul_2 li::before {
   /* Styles for the button */
   .embark_book_appoint_2 {
     position: absolute;
-    width: 250px;
+    width: 190px;
     font-family: "Montserrat";
     background: #fff;
     font-weight: 500;
@@ -3783,6 +3807,7 @@ ul.who_we_are_ul_2 li::before {
     letter-spacing: 0.5px;
     border: 2px solid #fff;
     cursor: pointer;
+    left: -10px;
   }
 
   .embark_book_appoint_2:hover {
@@ -3828,8 +3853,11 @@ ul.who_we_are_ul_2 li::before {
     gap: 5px;
   }
   .blog-card {
-    width: 95%;
+    width: 100%;
+    position: relative;
+    height: fit-content;
   }
+  
   .blog-table {
     width: 100%;
   }
@@ -3850,7 +3878,7 @@ ul.who_we_are_ul_2 li::before {
   .blog-share {
     position: relative;
     left: 25%;
-    bottom: 2px;
+    top: -25px;
   }
   .share-icons {
     width: 35px;
@@ -3859,7 +3887,7 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    left: -33%;
+    right: -7%;
   }
   .blog-card .author {
     position: relative;
@@ -3876,9 +3904,8 @@ ul.who_we_are_ul_2 li::before {
   .blog_detail_section_title {
     text-align: center;
   }
+  
   .Blog_section {
-    margin-right: -40px;
-    margin-left: -40px;
     background: #101822;
     padding: 25px 60px 120px 60px;
   }
@@ -3890,8 +3917,8 @@ ul.who_we_are_ul_2 li::before {
     height: 300px;
   }
   .twitter-fix {
-    position: relative;
-    top: 13px;
+    position: absolute;
+    bottom: 100px;
   }
   .team_title{
     font-size: 20px;
@@ -3952,4 +3979,77 @@ ul.who_we_are_ul_2 li::before {
   .team_mobile_fix {
     margin-bottom: -30px;
   }
+  .logo_img{
+    height: 70px;
+    width: initial;
+    margin: 25px 0;
+  }
+  .footer-align {
+    position: relative;
+    left: 40px;
+  }
+  .img-adjust {
+    position: relative;
+    left: 0px;
+  }
+  .testimonials_sec {
+    height: fit-content;
+  }
+  .blog-slider {
+    position: relative;
+    top: 70px;
+    height: fit-content;
+  }
+  .blog-slider__title {
+    height: 10px;
+    position: relative;
+    top: -20px;
+  }
+  .blog-slider__content {
+    height: 10px;
+  }
+  .blog-slider__img {
+    width: 90%;
+  }
+  .fix {
+    position: relative;
+    top: -30px;
+  }
+  .fix2 {
+    position: relative;
+    right: 10px;
+  }
+  .indicator {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -14px;
+    transform: rotate(45deg);
+  }
+  .blog-slider__pagination {
+    top: 200px;
+}
+.facebook-icon {
+  position: relative;
+  top: 13px;
+  font-size: 13px;
+}
+.linkedin-icon {
+  position: relative;
+  top: 13px;
+  font-size: 13px;
+}
+.whatsapp-icon {
+  position: relative;
+  top: 13px;
+  font-size: 13px;
+}
+.contact-space {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.twitter-fix {
+  position: relative;
+  top: 0px;
+}
 }

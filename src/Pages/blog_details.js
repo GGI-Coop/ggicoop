@@ -8,11 +8,15 @@ import axios from "axios";
 import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, LinkedinShareButton, WhatsappShareButton } from 'react-share';
 import twitter from "../Utilities/logo.webp";
 import blogs from "../Pages/blogs.js";
+import "./../Assets/vendor/bootstrap/css/bootstrap-grid.css";
+
 
 function Blogs_Details() {
   const [posts, setPosts] = useState([]);
   const [post, setPost] = useState(null);
   const { id } = useParams();
+  const { title } = useParams();
+  const { url } = useParams();
 
   useEffect(() => {
     const getPosts = async () => {
@@ -32,9 +36,10 @@ function Blogs_Details() {
   }, []);
 
   useEffect(() => {
-    const selectedPost = posts.find((p) => p.id === parseInt(id));
+    const selectedPost = posts.find((p) => p.url === url);
     setPost(selectedPost);
-  }, [id, posts]);
+  }, [url, posts]);
+
   if (!post) {
     return <div>Loading...</div>;
   }
@@ -74,28 +79,28 @@ function Blogs_Details() {
               </div>
               <div className="blog-detail-share">
               <FacebookShareButton
-                          url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                          url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button round="true" className="fa fa-facebook facebook-icon share-icons" />
                         </FacebookShareButton>
 
                         <TwitterShareButton
-                          url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                          url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <img className="share-icons twitter-fix" src={twitter}></img>
                         </TwitterShareButton>
 
                         <LinkedinShareButton
-                          url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                          url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button className="fa fa-linkedin linkedin-icon share-icons" />
                         </LinkedinShareButton>
 
                         <WhatsappShareButton
-                          url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                          url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                             <button className="fa fa-whatsapp whatsapp-icon share-icons" />
@@ -105,28 +110,28 @@ function Blogs_Details() {
               <div className="blog_detail_para">{parse(post.body)}</div>
               <div className="blog-detail-share">
               <FacebookShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button round="true" className="fa fa-facebook facebook-icon share-icons" />
                         </FacebookShareButton>
 
                         <TwitterShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <img className="share-icons twitter-fix" src={twitter}></img>
                         </TwitterShareButton>
 
                         <LinkedinShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button className="fa fa-linkedin linkedin-icon share-icons" />
                         </LinkedinShareButton>
 
                         <WhatsappShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                             <button className="fa fa-whatsapp whatsapp-icon share-icons" />
@@ -142,17 +147,18 @@ function Blogs_Details() {
               <div className="blog_detail_side_box">
                 <h5 className="blog_detail_side_section_title">Recent Blogs</h5>
                 {posts.map((recentPost) => (
-                  <div key={recentPost.id}>
+                  <div key={recentPost.url}>
                     <div className="blog_detail_side_inner">
+                        <Link onClick={window.scrollTo(0,0)} to={`/blog_details/${recentPost.url}`}>
                       <div className="blog_detail_side_img_box">
-                        <Link to={`/blog_details/${recentPost.id}`}>
+                        <a href="#"/>
                           <img className="blog_detail_side_img" src={recentPost.image} alt={recentPost.title} />
-                        </Link>
                       </div>
                       <div>
                         <h6 className="blog_detail_side_title">{recentPost.title}</h6>
                         <h6 className="blog_date"><i className="fa fa-calendar"></i> {recentPost.published_date}</h6>
                       </div>
+                        </Link>
                       
                     </div>
                     <hr className="blog_detail_side_hr" />
@@ -173,8 +179,8 @@ function Blogs_Details() {
         <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | Blog</h6>
       </div>
       <div className="banner_content">
-        <Link to="https://calendly.com/growingglobeimmigration" target="_blank" rel="noreferrer">
-          <button className="embark_book_appoint_2">Book An Appointment</button></Link>
+        <a href="https://calendly.com/growingglobeimmigration" target="_blank" rel="noreferrer">
+          <button className="embark_book_appoint_2">Book An Appointment</button></a>
       </div>
     </div>
     <div className="Blog_section">
@@ -195,28 +201,28 @@ function Blogs_Details() {
               </div>
               <div className="blog-detail-share">
               <FacebookShareButton 
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <button round = "true" className="fa fa-facebook facebook-icon share-icons"/>
                       </FacebookShareButton>
 
                       <TwitterShareButton 
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <img className="fa share-icons twitter-fix" src={twitter}></img>
                       </TwitterShareButton>
 
                       <LinkedinShareButton 
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <button className="fa fa-linkedin linkedin-icon share-icons"/>
                       </LinkedinShareButton>
                       
                       <WhatsappShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <button className="fa fa-whatsapp whatsapp-icon share-icons" />
@@ -227,27 +233,27 @@ function Blogs_Details() {
               <div className="blog_detail_para">{parse(post.body)}</div>
               <div className="blog-detail-share">
               <FacebookShareButton 
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <button round = "true" className="fa fa-facebook facebook-icon share-icons"/>
                       </FacebookShareButton>
 
                       <TwitterShareButton 
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <img className="share-icons twitter-fix" src={twitter}></img>
                       </TwitterShareButton>
 
                       <LinkedinShareButton 
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <button className="fa fa-linkedin linkedin-icon share-icons"/>
                       </LinkedinShareButton>
                       <WhatsappShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                         quote={"Hey guys! Check out this article!"}
                         hashtag="#GGI">
                         <button className="fa fa-whatsapp whatsapp-icon share-icons" />
@@ -263,10 +269,11 @@ function Blogs_Details() {
               <div className="blog_detail_side_box">
                 <h5 className="blog_detail_side_section_title">Recent Blogs</h5>
                 {posts.map((recentPost) => (
-                  <div key={recentPost.id}>
+                  <div key={recentPost.url}>
                     <div className="blog_detail_side_inner">
                       <div className="blog_detail_side_img_box">
-                        <Link to={`/blog_details/${recentPost.id}`}>
+                        <Link onClick={window.scrollTo(0,0)} to={`/blog_details/${recentPost.url}`}>
+                          <a href="#"/>
                           <img className="blog_detail_side_img" src={recentPost.image} alt={recentPost.title} />
                         </Link>
                       </div>
@@ -285,6 +292,7 @@ function Blogs_Details() {
         </div>
       </div>
     </div>
+    
   );
 }
 }

@@ -70,15 +70,15 @@ function Home(){
                 <div className="col-md-12">
                   <div className="video_sec_counter_box">
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title"><CountUp delay={1} end={1500} duration={1}/>+</h3>
+                      <h3 className="video_sec_counter_title"><CountUp delay={0.5} end={1500} duration={2}/>+</h3>
                       <h5 className="video_sec_counter_subtitle">List of Approvals</h5>
                     </div>
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title"><CountUp delay={1} end={300} duration={1}/>+</h3>
+                      <h3 className="video_sec_counter_title"><CountUp delay={0.5} end={300} duration={2}/>+</h3>
                       <h5 className="video_sec_counter_subtitle">Ongoing Files</h5>
                     </div>
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title"><CountUp delay={1} end={48} duration={1}/> Hours</h3>
+                      <h3 className="video_sec_counter_title"><CountUp delay={0.5} end={48} duration={2}/> Hours</h3>
                       <h5 className="video_sec_counter_subtitle">Current Processing Time*</h5>
                     </div>
                   </div>
@@ -119,36 +119,36 @@ function Home(){
                   <div>
                     <img src={Img.immigrate_canada_img_1} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/visit_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Visit Visa</h3></Link>
-                      <Link to="/visit_visa"> <button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
+                       <a href="/visit_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Visit Visa</h3></a>
+                      <a href="/visit_visa"> <button className="learn_more_btn anm_mod full fast">Learn More</button></a>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_2} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/study_permit"> <h3 className="permanent_resident_visa_text anm_mod full fast">Study Permit</h3></Link>
-                       <Link to="/study_permit"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
+                       <a href="/study_permit"> <h3 className="permanent_resident_visa_text anm_mod full fast">Study Permit</h3></a>
+                       <a href="/study_permit"><button className="learn_more_btn anm_mod full fast">Learn More</button></a>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_3} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/work_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Work Visa</h3></Link>
-                       <Link to="/work_visa"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
+                       <a href="/work_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Work Visa</h3></a>
+                       <a href="/work_visa"><button className="learn_more_btn anm_mod full fast">Learn More</button></a>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_4} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/business_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Business Visa</h3></Link>
-                       <Link to="/business_visa"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
+                       <a href="/business_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Business Visa</h3></a>
+                       <a href="/business_visa"><button className="learn_more_btn anm_mod full fast">Learn More</button></a>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_5} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/immigrate"> <h3 className="permanent_resident_visa_text anm_mod full fast">Immigration</h3></Link>
-                       <Link to="/immigrate"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
+                       <a href="/immigrate"> <h3 className="permanent_resident_visa_text anm_mod full fast">Immigration</h3></a>
+                       <a href="/immigrate"><button className="learn_more_btn anm_mod full fast">Learn More</button></a>
                     </div>
                   </div>
                 </ScrollCarousel>
@@ -200,7 +200,7 @@ function Home(){
                 <div className="consult_img"><img src={Img.p11} className="consultants" alt=""></img></div>
               </ScrollCarousel>
               <center>
-                <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
+                <a href="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></a>
               </center>
           </div>
         </div>

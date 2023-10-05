@@ -486,12 +486,13 @@ section {
   .navbar ul {
     position: absolute;
     inset: 0;
-    padding: 50px 0 10px 0;
+    padding: 70px 0 10px 25px;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: rgb(12, 27, 43);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
+    list-style-type: none;
   }
 
   .navbar a,
@@ -587,7 +588,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(243, 3, 2, 0.8);
+    background: rgba(12, 27, 43, 0.8);
     z-index: 9996;
   }
 }

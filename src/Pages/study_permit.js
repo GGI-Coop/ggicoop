@@ -151,12 +151,12 @@ function Study_permit(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
+                    <h3 className="express_entry_title">Study Permit</h3>
               <div className="col-md-7">
                  <img src={Img.study_permit} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
                  <div className="p-3">
-                    <h3 className="express_entry_title">Study Permit</h3>
                     <p className="get_ready_para">A study permit is a document issued by the Canadian government that allows foreign nationals to study at designated learning institutions (DLIs) in the country. It serves as an essential requirement for most international students planning to pursue their academic aspirations in Canada.</p>
                     <p className="get_ready_para">To ensure a smooth and successful study permit application process, it is imperative to have all the required documents ready beforehand. The specific documents necessary may vary depending on your unique circumstances, including whether you are applying through the Student Direct Stream (SDS) or the regular non-SDS stream.</p>
                  </div>

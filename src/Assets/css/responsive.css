@@ -35,13 +35,22 @@
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    background-color: #0c1b2b;
+    background-color: #0c1b2b!important;
     padding: 0 20px;
+    position: relative!important;
   }
   .header .logo img {
     max-height: 62px;
-    margin-right: 6px;
-    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
   }
   .mobile_nav{
     justify-content: space-between;
@@ -124,9 +133,9 @@
       border: 2px solid #fff;
       width: -webkit-fill-available;     
     }
-    .carousel_img{
+    /*.carousel_img{
       width: 100%;
-    }
+    }*/
     .permanent_resident_visa_text {
       font-family: "Montserrat";
       font-size: 18px;
@@ -368,7 +377,7 @@
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
-      margin-top: 89px!important;
+/*      margin-top: 89px!important;*/
   }
   .banner_content {
     position: inherit;
@@ -791,13 +800,22 @@
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    background-color: #0c1b2b;
+    background-color: #0c1b2b!important;
     padding: 0 20px;
+    position: relative!important;
   }
   .header .logo img {
     max-height: 62px;
-    margin-right: 6px;
-    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
   }
   .mobile_nav{
     justify-content: space-between;
@@ -880,9 +898,9 @@
       border: 2px solid #fff;
       width: -webkit-fill-available;     
     }
-    .carousel_img{
+    /*.carousel_img{
       width: 100%;
-    }
+    }*/
     .permanent_resident_visa_text {
       font-family: "Montserrat";
       font-size: 18px;
@@ -1124,7 +1142,7 @@
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
-      margin-top: 89px!important;
+/*      margin-top: 89px!important;*/
   }
   .banner_content {
     position: inherit;
@@ -1529,13 +1547,22 @@
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    background-color: #0c1b2b;
+    background-color: #0c1b2b!important;
     padding: 0 20px;
+    position: relative!important;
   }
   .header .logo img {
     max-height: 62px;
-    margin-right: 6px;
-    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
   }
   .mobile_nav{
     justify-content: space-between;
@@ -1613,9 +1640,9 @@
       border: 2px solid #fff;
       width: -webkit-fill-available;     
     }
-    .carousel_img{
+    /*.carousel_img{
       width: 100%;
-    }
+    }*/
     .permanent_resident_visa_text {
       font-family: "Montserrat";
       font-size: 18px;
@@ -1990,7 +2017,7 @@
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
-      margin-top: 89px!important;
+/*      margin-top: 89px!important;*/
   }
   .banner_content {
     position: inherit;
@@ -2404,13 +2431,22 @@
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    background-color: #0c1b2b;
+    background-color: #0c1b2b!important;
     padding: 0 20px;
+    position: relative!important;
   }
   .header .logo img {
     max-height: 62px;
-    margin-right: 6px;
-    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
   }
   .mobile_nav{
     justify-content: space-between;
@@ -2488,9 +2524,9 @@
       border: 2px solid #fff;
       width: -webkit-fill-available;     
     }
-    .carousel_img {
+    /*.carousel_img {
         width: 100%;
-    }
+    }*/
     .permanent_resident_visa_text {
       font-family: "Montserrat";
       font-size: 18px;
@@ -2733,7 +2769,7 @@
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
-      margin-top: 89px!important;
+/*      margin-top: 89px!important;*/
   }
   .banner_content {
     position: inherit;
@@ -3146,13 +3182,22 @@
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    background-color: #0c1b2b;
+    background-color: #0c1b2b!important;
     padding: 0 20px;
+    position: relative!important;
   }
   .header .logo img {
     max-height: 62px;
-    margin-right: 6px;
-    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
   }
   .mobile_nav{
     justify-content: space-between;
@@ -3226,9 +3271,9 @@
       border: 2px solid #fff;
       width: -webkit-fill-available;     
     }
-    .carousel_img{
+    /*.carousel_img{
       width: 100%;
-    }
+    }*/
     .permanent_resident_visa_text {
       font-family: "Montserrat";
       font-size: 18px;
@@ -3471,7 +3516,7 @@
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
-      margin-top: 89px!important;
+/*      margin-top: 89px!important;*/
   }
   .banner_content {
     position: inherit;
@@ -3891,13 +3936,22 @@
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    background-color: #0c1b2b;
+    background-color: #0c1b2b!important;
     padding: 0 20px;
+    position: relative!important;
   }
   .header .logo img {
     max-height: 62px;
-    margin-right: 6px;
-    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
   }
   .mobile_nav{
     justify-content: space-between;
@@ -3971,9 +4025,9 @@
       border: 2px solid #fff;
       width: -webkit-fill-available;     
     }
-    .carousel_img{
+    /*.carousel_img{
       width: 100%;
-    }
+    }*/
     .permanent_resident_visa_text {
       font-family: "Montserrat";
       font-size: 18px;
@@ -4216,7 +4270,7 @@
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
-      margin-top: 89px!important;
+/*      margin-top: 89px!important;*/
   }
   .banner_content {
     position: inherit;
@@ -4604,10 +4658,28 @@
 /*-----------------------------------------------Desktop and Laptop Media Query Start-------------------------------------------------------------*/
 @media only screen and (min-width: 768px)  and (max-width: 870px)
 {
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background-color: #0c1b2b!important;
+    padding: 0 20px;
+    position: relative!important;
+  }
   .header .logo img {
     max-height: 80px;
-    margin-right: 6px;
-    margin-top: 6px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+   position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
   }
   .embark_book_appoint_2 {
     font-family: "Montserrat";
@@ -4647,7 +4719,7 @@
   }
   .logo_img {
     height: 64px;
-    width: 100%;
+/*    width: 100%;*/
     margin: 25px 0;
   }
   .blog-card .blog-card-image {
@@ -4709,6 +4781,23 @@
 }
 @media only screen and (min-width: 871px)  and (max-width: 991px)
 {
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background-color: #0c1b2b!important;
+    padding: 0 20px;
+    position: relative!important;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+  }
   .team_card_box {
     padding: 0 0px;
   }
@@ -4724,6 +4813,23 @@
 }
 @media only screen and (min-width: 992px) and (max-width:1199px)
 {
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background-color: #0c1b2b!important;
+    padding: 0 20px;
+    position: relative!important;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+  }
   .team_card {
     background: #fff;
     padding: 30px 30px;
@@ -4910,7 +5016,7 @@
   }
   .banner_content {
       position: absolute;
-      bottom: 16%;
+      bottom: 28%;
       left: 5%;
   }
   /*--------------------------------------Header End--------------------------------------*/

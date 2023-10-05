@@ -8,7 +8,6 @@ import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, Li
 import twitter from "../Utilities/logo.webp"
 import axios from "axios";
 
-
 function Blogs() {
   const responsive = {
     superLargeDesktop: {
@@ -58,6 +57,7 @@ function Blogs() {
     }
   };
 
+
   useEffect(() => {
     getPosts()
   }, [])
@@ -66,8 +66,8 @@ function Blogs() {
     <div>
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt=""></img>
-        <div className="banner_content">
-        <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a>| Blog</h6>
+        <div className="banner_content fix">
+        <h6 className="blog_detail_side_breadcrumn fix2"><a href="/"><i class="fa fa-home"></i> HOME </a>| Blog</h6>
           <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
             <button className="embark_book_appoint_2">Book An Appointment</button></Link>
         </div>
@@ -82,7 +82,7 @@ function Blogs() {
           <div className="row">
           {posts.map(post => {
                 return (<div className="col-md-4" key={post.id}>
-                  <Link to={`/blog_details/${post.id}`}><div className="blog-card blog-card-blog anm_mod full fast">
+                  <Link to={`/blog_details/${post.url}`}><div className="blog-card blog-card-blog anm_mod full fast">
                     <div className="blog-card-image">
                       <img className="img" src={post.image} />
                       <div className="ripple-cont"></div>
@@ -90,42 +90,40 @@ function Blogs() {
                     <div className="blog-table">
                       <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> {post.category}</h6>
                       <h4 className="blog-card-caption">
-                        <Link to={`/blog_details/${post.id}`}>{post.title}</Link>
+                        <Link to={`/blog_details/${post.url}`}>{post.title}</Link>
                       </h4>
                       <p className="blog-card-description">{post.description}</p>
                       <div className="ftr">
                         <div className="author">
                           <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">{post.author}</span>
                         </div>
-                        <div className="stats calendar"><i className="fa fa-calendar"></i> {post.published_date}</div>
-
-                        
+                        <div className="stats calendar"><i className="fa fa-calendar"></i> {post.published_date}</div>                        
                       </div>
                       </div>
                       <div className="blog-share anm full fast">
                         <FacebookShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button round="true" className="fa fa-facebook facebook-icon share-icons" />
                         </FacebookShareButton>
 
                         <TwitterShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
-                          <img className="share-icons" src={twitter}></img>
+                          <img className="share-icons twitter-fix" src={twitter}></img>
                         </TwitterShareButton>
 
                         <LinkedinShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                           <button className="fa fa-linkedin linkedin-icon share-icons" />
                         </LinkedinShareButton>
 
                         <WhatsappShareButton
-                        url={`growingglobeimmigration.com/blog_details/${post.id}`}
+                        url={`growingglobeimmigration.com/blog_details/${post.url}`}
                           quote={"Hey guys! Check out this article!"}
                           hashtag="#GGI">
                             <button className="fa fa-whatsapp whatsapp-icon share-icons" />
