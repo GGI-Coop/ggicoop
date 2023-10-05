@@ -60,7 +60,7 @@ function Blogs_Details() {
         </div>
         <div className="banner_content">
         <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
-            <button className="embark_book_appoint_2">Book An Appointment</button></Link>
+            <button className="embark_book_appoint_2"><strong>Book An Appointment</strong></button></Link>
         </div>
       </div>
       <div className="Blog_section">

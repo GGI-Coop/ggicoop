@@ -51,7 +51,7 @@ function Visit_visa(){
           <img src={Img.visit_visa_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
               <a href="https://calendly.com/growingglobeimmigration">
-                 <button className="embark_book_appoint_2">Book An Appointment</button>
+                 <button className="embark_book_appoint_2"><strong>Book An Appointment</strong></button>
               </a>
           </div>
         </div>

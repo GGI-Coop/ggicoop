@@ -85,7 +85,7 @@ function Home(){
                   <div className="col-md-12">
                     <div className="video_sec_counter_box">
                       <div>
-                        <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint">Book An Appointment</button></a>
+                        <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint"><strong>Book An Appointment</strong></button></a>
                       </div>
                       
                     </div>

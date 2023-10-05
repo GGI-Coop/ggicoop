@@ -47,8 +47,8 @@ function About_us(){
   };
 
   return(
-    <div>
-      <Header />
+    <div className="page">
+      <Header/>
         <div className="banner_section">
           <img src={Img.about_us_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
@@ -92,22 +92,22 @@ function About_us(){
                     <li className="anm_mod full fast">Get support in more 18 languages</li>
                  </ul>
               </div>
-              <div className="col-md-3 anm_mod full fast">
-                <center>
-                  <img src={Img.capic} className="logo_img" alt=""></img>
-                </center>
+              <div className="col-md-3 anm_mod full fast logo1">
+                  <img src={Img.capic} className="logo_img mobile_logo1" alt=""></img>
               </div>
-              <div className="col-md-3 anm_mod full fast">
+              <ul>
+              <div className="col-md-3 anm_mod full fast logo2">
                 <center>
                   <img src={Img.CICC} className="logo_img" alt=""></img>
                 </center>
               </div>
-              <div className="col-md-3 anm_mod full fast">
+              </ul>
+              <div className="col-md-3 anm_mod full fast logo3">
                 <center>
-                  <img src={Img.Low_security} className="logo_img" alt=""></img>
+                  <img src={Img.Low_security} className="logo_img mobile_logo3" alt=""></img>
                 </center>
               </div>
-              <div className="col-md-3 anm_mod full fast">
+              <div className="col-md-3 anm_mod full fast logo4">
                 <center>
                   <img src={FooterImg.footer_img4} className="logo_img" alt=""></img>
                 </center>
