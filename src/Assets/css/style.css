@@ -3792,7 +3792,7 @@ ul.who_we_are_ul_2 li::before {
     text-transform: capitalize;
   }
   .embark_scroll_container {
-    width: 300px;
+    width: 320px;
     padding: 10px 0px 0px 0px;
     position: relative;
     margin-left: 10px;
@@ -4009,7 +4009,13 @@ ul.who_we_are_ul_2 li::before {
     left: 0px;
   }
   .testimonials_sec {
-    height: fit-content;
+    height: 700px;
+    padding: 10px 300px 60px 300px;
+
+  }
+  .testimonials {
+    position: relative;
+    bottom: 60px;
   }
   .blog-slider {
     position: relative;
@@ -4094,6 +4100,9 @@ ul.who_we_are_ul_2 li::before {
   position: relative;
   left: 0;
   top: 0;
+}
+.team_title{
+  margin-top: 5px;
 }
 }
 
