@@ -2173,6 +2173,8 @@
   width: fit-content;
   position: relative;
   top: 30%;
+  left: 10%;
+  text-align: center;
 }
 .read_more_btn{
   font-family: "Montserrat";
@@ -4051,5 +4053,10 @@ ul.who_we_are_ul_2 li::before {
 .twitter-fix {
   position: relative;
   top: 0px;
+}
+.study_permit_img_2 {
+  height: 100%;
+  width: 100%;
+  left: 0;
 }
 }

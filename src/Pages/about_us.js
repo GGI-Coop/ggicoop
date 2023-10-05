@@ -59,7 +59,7 @@ function About_us(){
         </div>
         <div className="immigrate_canada_section animation" id="top">
           <div className="container">
-                <img src={Img.about} className="study_permit_img_2 img" alt=""></img>
+                <centre><img src={Img.about} className="study_permit_img_2 img" alt=""></img></centre>
                 <h3 className="about_growing_head anm_mod full fast mt_50">About Growing Globe Immigration</h3>
                 <p className="study_permit_para anm_mod full fast">Welcome to Growing Globe Immigration, an innovative Canadian immigration firm headquartered in the vibrant city of Toronto. We are dedicated pioneers committed to helping individuals turn their dreams of calling Canada their new home into a reality.</p>
                 <p className="study_permit_para anm_mod full fast">Our journey spans three continents, with strategically located offices in Canada, the United Arab Emirates, and India, totaling eight registered offices. We pride ourselves on our multicultural team, which brings diversity to our collective capabilities and perspectives. With over 20 dedicated and proficient Regulated Canadian Immigration Consultants, we stand by a client-centric approach marked by transparency, integrity, and unwavering commitment.</p>
