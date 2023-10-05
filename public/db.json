@@ -1,6 +1,18 @@
 {
     "posts": [
         {
+            "id": 32,
+            "title": "Canadian STEM Jobs: A World of Opportunities Awaits Immigrants",
+            "description": "Canada, October 5, 2023 - Brace yourself for an electrifying invitation! Canada is calling upon talented STEM (Science...",
+            "category": "Express Entry",
+            "author": "GGI",
+            "published_date": "Oct 4th, 2023",        
+            "body": "<p><strong>Canada, October 5, 2023</strong> - Brace yourself for an electrifying invitation! Canada is calling upon talented STEM (Science, Technology, Engineering, and Math) professionals from around the world to join an exhilarating journey of opportunities. Immigration, Refugees and Citizenship Canada (IRCC) is set to make 2023 a landmark year with category-based draws under the Express Entry system, placing STEM occupations at the forefront.</p><p><strong>Express Entry's Innovative Leap</strong></p><p>Express Entry category-based draws are not just a change; they're a revolution! Designed to fulfill Canada's economic needs and priorities, these draws redefine immigration pathways. Unlike conventional draws, where Comprehensive Ranking System (CRS) scores reign supreme, category-based draws spotlight specific work experience, offering a tailored passage to Canada.</p><p><strong>STEM - The Cosmic Choice</strong></p><p>Why STEM? It's a question with a compelling answer. Stats Canada's 2022 report revealed a dynamic skills gap in Canada's STEM workforce. The retirement wave and technological evolution have created an insatiable demand for STEM talents.</p><p>Canada's thriving Artificial Intelligence (AI) sector is a testament to its commitment to innovation. Globally, Canada ranks fourth in innovation, implementation, and investment, according to the Global AI Index. The Honourable François-Philippe Champagne, Minister of Innovation, Science, and Industry, hails this STEM-focused initiative as a beacon for Canada's science and tech sector, attracting the brilliant minds needed for innovation and growth.</p><p>Minister Champagne proudly asserts, 'Canada is the ultimate hub to launch and elevate tech ventures,' highlighting Canada's dedication to nurturing innovation.</p><p><strong></strong></p>",
+            "image": "/Assets/img/blogs/Passing TFWP Test.png",
+            "video": "https://drive.google.com/file/d/1rLxqFGQ8vioo5dYJgYnBrfMGVDAJCy0J/preview",
+            "url": "shocking-revelation-94-of-employers-pass-the-tfwp-test-are-you-playing-by-the-rules"
+        },
+        {
             "id": 31,
             "title": "Shocking Revelation: 94% of Employers Pass the TFWP Test! Are You Playing by the Rules?",
             "description": "In a riveting turn of events, the latest findings from Employment and Social Development Canada (ESDC) have sent shockwaves...",

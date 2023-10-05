@@ -68,7 +68,7 @@ function ContactUs(){
                   </div>
                   <div className="contact-table">
                     <h4 className="contact-card-caption anm_mod full fast mb_30">
-                      Canada Offices
+                      <strong>Canada Offices</strong>
                     </h4>
                     <div className="conatact_add_box anm_mod full fast">
                       <div>
@@ -111,14 +111,14 @@ function ContactUs(){
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 contact-space">
                 <div className="contact-card contact-card-contact">
                   <div className="contact-card-image anm_mod full fast">
                     <img className="img" src={Img.contact_india} ></img>
                   </div>
                   <div className="contact-table">
                     <h4 className="contact-card-caption anm_mod full fast mb_30">
-                      India Offices
+                      <strong>India Offices</strong>
                     </h4>
 
                     <div className="conatact_add_box anm_mod full fast">
@@ -154,14 +154,14 @@ function ContactUs(){
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 contact-space">
                 <div className="contact-card contact-card-contact">
                   <div className="contact-card-image anm_mod full fast">
                     <img className="img" src={Img.contact_uae} ></img>
                   </div>
                   <div className="contact-table">
                     <h4 className="contact-card-caption anm_mod full fast mb_30">
-                      UAE Offices
+                      <strong>UAE Offices</strong>
                     </h4>
 
                     <div className="conatact_add_box anm_mod full fast">

@@ -151,7 +151,7 @@ function About_us(){
               <div className="consult_img"><img src={Img.p11} className="consultants" alt=""></img></div>
               </ScrollCarousel>
             <center>
-                <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
+                <a href="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></a>
             </center>
         </div>
         <div className="contact_us_today_section_about_us animation">

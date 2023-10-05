@@ -5416,3 +5416,11 @@
 {
 }
 /*-------------------------------remaining---------------------------------------*/
+
+@media only screen and (max-width: 464px) {
+  .logo_img {
+    height: 90px;
+    width: initial;
+    margin: 25px 0;
+  }
+}

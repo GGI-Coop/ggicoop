@@ -1264,17 +1264,6 @@
 }
 .video_book_appoint{
   font-family: "Montserrat";
-  background: #fff;
-  font-weight: 500;
-  font-size: 16px;
-  color: #f30302;
-  border-radius: 6px;
-  padding: 10px 50px 10px 55px;
-  letter-spacing: 0.5px;
-  border: 2px solid #fff;
-}
-.video_book_appoint:hover{
-  font-family: "Montserrat";
   background: #f30302;
   font-weight: 500;
   font-size: 16px;
@@ -1283,8 +1272,18 @@
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #f30302;
+}
+.video_book_appoint:hover{
+  font-family: "Montserrat";
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f30302;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #fff;
   transition: border-color 0.5s, background-color 0.5s, color 0.5s;
-  border: solid 2px white;
 }
 .video_free_report{
   font-family: "Montserrat";
@@ -3025,13 +3024,16 @@ ul.who_we_are_ul_2 li::before {
 .facebook-icon {
   background-color: #3c5997;
   color: white;
+  z-index: 1;
 }
 .linkedin-icon {
   background-color: #027fb1;
   color: white;
+  z-index: 1;
 }
 .whatsapp-icon {
   background-color: #4fe95f;
+  z-index: 1;
 }
 .share-icons:hover {
   scale: 1.05;
@@ -3982,7 +3984,7 @@ ul.who_we_are_ul_2 li::before {
     margin-bottom: -30px;
   }
   .logo_img{
-    height: 70px;
+    height: 700px;
     width: initial;
     margin: 25px 0;
   }
