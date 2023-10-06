@@ -4060,17 +4060,21 @@ ul.who_we_are_ul_2 li::before {
 .facebook-icon {
   position: relative;
   top: 13px;
-  font-size: 15px;
+  font-size: 14px;
+  text-align: center;
 }
 .linkedin-icon {
   position: relative;
   top: 13px;
-  font-size: 15px;
+  font-size: 14px;
+  text-align: center;
+
 }
 .whatsapp-icon {
   position: relative;
   top: 13px;
-  font-size: 15px;
+  font-size: 14px;
+  text-align: center;
 }
 .contact-space {
   padding-bottom: 50px;
