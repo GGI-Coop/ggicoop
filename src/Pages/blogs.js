@@ -67,7 +67,7 @@ function Blogs() {
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt=""></img>
         <div className="banner_content fix">
-        <h6 className="blog_detail_side_breadcrumn fix2"><a href="/"><i class="fa fa-home"></i> HOME </a>| Blog</h6>
+        <h6 className="blog_detail_side_breadcrumn home-blog-ref"><a href="/"><i class="fa fa-home"></i> HOME </a>| Blog</h6>
           <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
             <button className="embark_book_appoint_2"><strong>Book An Appointment</strong></button></Link>
         </div>

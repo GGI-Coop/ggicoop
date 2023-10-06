@@ -1473,6 +1473,8 @@ a{
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #fff;
+  position: relative;
+  left: 20px;
 }
 .embark_book_appoint_2:hover{
   font-family: "Montserrat";
@@ -2736,6 +2738,10 @@ ul.who_we_are_ul_2 li::before {
 /*-----------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------Blog Page Start----------------------------------------*/
+.home-blog-ref {
+  position: relative;
+  left: 20px;
+}
 .Blog_section{
   background: #101822;
   padding: 65px 90px 120px 90px;
@@ -3782,7 +3788,7 @@ ul.who_we_are_ul_2 li::before {
     text-transform: capitalize;
   }
   .embark_scroll_container {
-    width: 300px;
+    width: 325px;
     padding: 10px 0px 0px 0px;
     position: relative;
     margin-left: 10px;
@@ -3902,6 +3908,16 @@ ul.who_we_are_ul_2 li::before {
     font-size: 10px;
     position: relative;
     top: 25px;
+  }
+  .fix {
+    position: relative;
+    top: -40px;
+    right: -10px;
+  }
+  .home-blog-ref {
+    position: relative;
+    top: 18px;
+    left: 20px;
   }
   .blog_detail_section_title {
     text-align: center;

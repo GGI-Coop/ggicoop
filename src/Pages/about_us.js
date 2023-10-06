@@ -53,7 +53,7 @@ function About_us(){
           <img src={Img.about_us_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
               <a href="https://calendly.com/growingglobeimmigration">
-                 <button className="embark_book_appoint_2">Book An Appointment</button>
+                 <button className="embark_book_appoint_2"><strong>Book An Appointment</strong></button>
               </a>
           </div>
         </div>
@@ -154,7 +154,7 @@ function About_us(){
               <div className="consult_img"><img src={Img.p11} className="consultants" alt=""></img></div>
               </ScrollCarousel>
             <center>
-                <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
+                <a href="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></a>
             </center>
         </div>
         <div className="contact_us_today_section_about_us animation">
