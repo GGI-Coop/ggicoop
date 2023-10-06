@@ -3252,15 +3252,6 @@ ul.who_we_are_ul_2 li::before {
   top: 1px;
 }
 
-.popup-img{
-  width: 100%;
-  border-radius: 6px;
-}
-.express_entry_img{
-  width: 100%;
-  border-radius: 6px;
-}
-
 .express_entry_title{
   font-family: "Montserrat";
   font-size: 18px;
@@ -3478,14 +3469,11 @@ ul.who_we_are_ul_2 li::before {
 .modal-content .close:active {
   top: 1px;
 }
-
-.popup-img{
-  width: 100%;
-  border-radius: 6px;
-}
 .express_entry_img{
   width: 100%;
   border-radius: 6px;
+  position: relative;
+  left: 15px;
 }
 
 .express_entry_title{
@@ -4009,5 +3997,9 @@ ul.who_we_are_ul_2 li::before {
   }
   .contact_section {
     padding: 65px 20px 50px 20px;
+  }
+  .express_entry_img{
+    position: relative;
+    left: 0;
   }
 }
