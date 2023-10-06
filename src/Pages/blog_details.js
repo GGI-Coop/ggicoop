@@ -55,14 +55,12 @@ function Blogs_Details() {
     <meta property='og:image:height' content='627' />
       <div className="banner_section">
         <img src={Img.blog_banner} className="banner_img" alt="" />
-        <div className="banner_content_3">
-          <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | Blog</h6>
-        </div>
         <div className="banner_content">
+        <h6 className="blog_detail_side_breadcrumn home-blog-ref"><a href="/"><i class="fa fa-home"></i> HOME </a> | <a href="/blogs">Blog</a></h6>
         <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
             <button className="embark_book_appoint_2"><strong>Book An Appointment</strong></button></Link>
         </div>
-      </div>
+        </div>
       <div className="Blog_section">
         <div className="container">
           <div className="row">
@@ -175,12 +173,10 @@ function Blogs_Details() {
   return (<div>
     <div className="banner_section">
       <img src={Img.blog_banner} className="banner_img" alt="" />
-      <div className="banner_content_3">
-        <h6 className="blog_detail_side_breadcrumn"><a href="/"><i class="fa fa-home"></i> HOME </a> | Blog</h6>
-      </div>
       <div className="banner_content">
+        <h6 className="blog_detail_side_breadcrumn home-blog-ref"><a href="/"><i class="fa fa-home"></i> HOME </a> | <a href="/blogs">Blog</a></h6>
         <a href="https://calendly.com/growingglobeimmigration" target="_blank" rel="noreferrer">
-          <button className="embark_book_appoint_2">Book An Appointment</button></a>
+          <button className="embark_book_appoint_2"><strong>Book An Appointment</strong></button></a>
       </div>
     </div>
     <div className="Blog_section">
@@ -271,16 +267,16 @@ function Blogs_Details() {
                 {posts.map((recentPost) => (
                   <div key={recentPost.url}>
                     <div className="blog_detail_side_inner">
-                      <div className="blog_detail_side_img_box">
                         <Link onClick={window.scrollTo(0,0)} to={`/blog_details/${recentPost.url}`}>
+                      <div className="blog_detail_side_img_box">
                           <a href="#"/>
                           <img className="blog_detail_side_img" src={recentPost.image} alt={recentPost.title} />
-                        </Link>
                       </div>
                       <div>
                         <h6 className="blog_detail_side_title">{recentPost.title}</h6>
                         <h6 className="blog_date"><i className="fa fa-calendar"></i> {recentPost.published_date}</h6>
                       </div>
+                        </Link>
                       
                     </div>
                     <hr className="blog_detail_side_hr" />

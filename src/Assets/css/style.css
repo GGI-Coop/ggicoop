@@ -1475,6 +1475,7 @@ a{
   border: 2px solid #fff;
   position: relative;
   left: 20px;
+  bottom: 32px;
 }
 .embark_book_appoint_2:hover{
   font-family: "Montserrat";
@@ -2400,7 +2401,7 @@ ul.who_we_are_ul_2 li::before {
 }
 .banner_content{
   position: absolute;
-  bottom: 28%;
+  bottom: 32%;
   left: 5%;
 }
 .banner_content_2 {
@@ -2741,6 +2742,7 @@ ul.who_we_are_ul_2 li::before {
 .home-blog-ref {
   position: relative;
   left: 20px;
+  bottom: 32px;
 }
 .Blog_section{
   background: #101822;
@@ -2873,8 +2875,8 @@ ul.who_we_are_ul_2 li::before {
 }
 .blog-share {
   position: relative;
-  left: 5%;
-  bottom: 2%;
+  left: 25%;
+  bottom: 0%;
   padding-bottom: 20px;
 }
 /*-----------------------------------------Blog Page End-----------------------------------------*/
@@ -3807,6 +3809,7 @@ ul.who_we_are_ul_2 li::before {
     letter-spacing: 0.5px;
     border: 2px solid #fff;
     cursor: pointer;
+    bottom: -55px;
   }
 
   .embark_book_appoint_2:hover {
@@ -3873,7 +3876,7 @@ ul.who_we_are_ul_2 li::before {
   }
   .blog-share {
     position: relative;
-    left: 5%;
+    left: 20%;
     bottom: 2px;
   }
   .share-icons {
@@ -4001,5 +4004,18 @@ ul.who_we_are_ul_2 li::before {
   .express_entry_img{
     position: relative;
     left: 0;
+  }
+  .banner_content {
+    position: relative;
+    top: -35px;
+  }
+  .facebook-icon {
+    font-size: 14px;
+  }
+  .linkedin-icon {
+    font-size: 13px;
+  }
+  .whatsapp-icon {
+    font-size: 13px;
   }
 }
