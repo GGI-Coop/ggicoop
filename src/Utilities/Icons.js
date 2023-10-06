@@ -9,7 +9,7 @@ export const FooterImg = {
   footer_img: require("../Assets/img/footer_logo.png"),
   footer_img2: require("../Assets/img/footer_logo2.png"),
   footer_img3: require("../Assets/img/footer_logo3.png"),
-	footer_img4: require("../Assets/img/footer_logo_4.png"),
+footer_img4: require("../Assets/img/footer_logo_4.png"),
 };
 
 export const Img = {

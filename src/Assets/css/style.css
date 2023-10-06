@@ -2372,6 +2372,11 @@ ul.who_we_are_ul_2 li::before {
   width: initial;
   margin: 25px 0;
 }
+.logo_img1{
+  height: 70px;
+  width: initial;
+  margin: 25px 0;
+}
 .logo3 {
   position: relative;
   left: 600px;
@@ -3999,6 +4004,7 @@ ul.who_we_are_ul_2 li::before {
     height: 700px;
     width: initial;
     margin: 25px 0;
+    visibility: hidden;
   }
   .footer-align {
     position: relative;
@@ -4070,6 +4076,13 @@ ul.who_we_are_ul_2 li::before {
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
+.contact-remove-space {
+  margin-bottom: -50px;
+  padding-bottom: -50px;
+}
+.contact_section {
+  padding: 65px 20px 50px 20px;
+}
 .twitter-fix {
   position: relative;
   top: 0px;
@@ -4083,18 +4096,20 @@ ul.who_we_are_ul_2 li::before {
   
   visibility: hidden;
 }
-.logo_img {
-  height: 20px;
+.mobile_logo{
+  height: 70px;
   width: 40px;
   margin: 0px 0;
   position: relative;
   left: -10px;
+  visibility: hidden;
 }
 
 .logo3 {
   position: relative;
   left: 0;
   top: 0;
+  height: 20px;
 }
 .logo4 {
   position: relative;
@@ -4104,8 +4119,10 @@ ul.who_we_are_ul_2 li::before {
 .team_title{
   margin-top: 5px;
 }
+.requirements_section {
+  height: 800px;
 }
-
+}
 .about_us_text {
   z-index: 1;
   color: white;
@@ -4114,8 +4131,4 @@ ul.who_we_are_ul_2 li::before {
   line-height: 20px;
   position: relative;
   top: -100px;
-}
-.page {
-  width:100%;
-  height: 100%;
 }

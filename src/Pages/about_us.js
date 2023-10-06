@@ -93,23 +93,23 @@ function About_us(){
                  </ul>
               </div>
               <div className="col-md-3 anm_mod full fast logo1">
-                  <img src={Img.capic} className="logo_img mobile_logo1" alt=""></img>
+                  <img src={Img.capic} className="logo_img mobile_logo" alt=""></img>
               </div>
               <ul>
               <div className="col-md-3 anm_mod full fast logo2">
                 <center>
-                  <img src={Img.CICC} className="logo_img" alt=""></img>
+                  <img src={Img.CICC} className="logo_img mobile_logo" alt=""></img>
                 </center>
               </div>
               </ul>
               <div className="col-md-3 anm_mod full fast logo3">
                 <center>
-                  <img src={Img.Low_security} className="logo_img mobile_logo3" alt=""></img>
+                  <img src={Img.Low_security} className="logo_img mobile_logo" alt=""></img>
                 </center>
               </div>
               <div className="col-md-3 anm_mod full fast logo4">
                 <center>
-                  <img src={FooterImg.footer_img4} className="logo_img" alt=""></img>
+                  <img src={FooterImg.footer_img4} className="logo_img mobile_logo" alt=""></img>
                 </center>
               </div>
             </div>
