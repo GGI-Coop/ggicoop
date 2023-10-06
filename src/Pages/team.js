@@ -45,7 +45,7 @@ function Team(){
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 animation team_mobile_fix">
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>

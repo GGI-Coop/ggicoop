@@ -72,7 +72,7 @@ function Immigrate(){
   };
 
   return(
-    <div className="page">
+    <div>
       <Header />
         <div className="banner_section">
           <img src={Img.immigrate_banner} className="banner_img" alt=""></img>
@@ -362,12 +362,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Express Entry</h3>
               <div className="col-md-7">
                  <img src={Img.express_entry} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Express Entry</h3>
                     <p className="get_ready_para">Get ready for an exciting journey with the Express Entry program, your fast track to Canadian permanent residency. Within Express Entry, there are three economic immigration categories:</p>
                     <ul className="ul">
                       <li>Federal Skilled Worker Class: Designed for skilled workers with foreign work experience, this category assesses your eligibility based on factors such as education, work experience, language proficiency, and adaptability.                     
@@ -394,12 +394,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Atlantic Immigration Program</h3>
               <div className="col-md-7">
                  <img src={Img.athlentic_immigration_program} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Atlantic Immigration Program</h3>
                     <p className="get_ready_para">Embark on a special journey through the Atlantic Immigration Pilot, a program focused on attracting skilled workers and international graduates to the vibrant Atlantic provinces. This program offers pathways to permanent residency, including opportunities for intermediate-skilled workers with job offers from designated employers.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -419,12 +419,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Caregiver Programs</h3>
               <div className="col-md-7">
                  <img src={Img.caregiver_programs} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Caregiver Programs</h3>
                     <p className="get_ready_para">If you have experience in caring for children, elderly, or people with medical needs, the Caregiver Programs offer opportunities to work in Canada and eventually become a permanent resident. These programs include the Home Child Care Provider and Home Support Worker streams.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -444,12 +444,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Quebec Skilled Worker Program (QSWP)</h3>
               <div className="col-md-7">
                  <img src={Img.quebec_skilled_worker_program} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Quebec Skilled Worker Program (QSWP)</h3>
                     <p className="get_ready_para">Immerse yourself in the rich cultural experience of Quebec through the Quebec Skilled Worker Program. This program has unique selection criteria tailored to skilled workers who aspire to settle in the province of Quebec. It evaluates applicants based on factors such as education, work experience, language proficiency, and adaptability.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -469,12 +469,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Ontario Immigrant Nominee Program (OINP)</h3>
               <div className="col-md-7">
                  <img src={Img.ontario_immigrant_nominee_program} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Ontario Immigrant Nominee Program (OINP)</h3>
                     <p className="get_ready_para">Experience the warmth and opportunities of Ontario through the Ontario Immigrant Nominee Program. It offers different streams catering to skilled workers, international graduates, and entrepreneurs who can contribute to Ontario's thriving economy. Streams include the Human Capital Category, Employer Job Offer Category, Business Category, and the Masters Graduate and PhD Graduate streams.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -494,12 +494,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">British Columbia Provincial Nominee Program (BC PNP)</h3>
               <div className="col-md-7">
                  <img src={Img.british_columbia_provincial_nominee_program} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">British Columbia Provincial Nominee Program (BC PNP)</h3>
                     <p className="get_ready_para">Discover the beauty and possibilities of British Columbia with the British Columbia Provincial Nominee Program. It offers various categories, such as Skills Immigration, Express Entry BC, Entrepreneur Immigration, and Regional Pilot, designed to welcome skilled workers, international graduates, and entrepreneurs. Each category has specific requirements and criteria.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -519,12 +519,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Alberta Immigrant Nominee Program (AINP)</h3>
               <div className="col-md-7">
                  <img src={Img.AINP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Alberta Immigrant Nominee Program (AINP)</h3>
                     <p className="get_ready_para">Set your sights on Alberta and its thriving labor market with the Alberta Immigrant Nominee Program. It offers different streams for skilled workers, international graduates, and self-employed individuals looking to make Alberta their new home. Streams include the Alberta Opportunity Stream, Alberta Express Entry Stream, Self-Employed Farmer Stream, and the Foreign Graduate Start-up Visa Stream.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -544,12 +544,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Saskatchewan Immigrant Nominee Program (SINP)</h3>
               <div className="col-md-7">
                  <img src={Img.SINP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Saskatchewan Immigrant Nominee Program (SINP)</h3>
                     <p className="get_ready_para">Discover the opportunities offered by the Saskatchewan Immigrant Nominee Program. It has various streams, including the International Skilled Worker Category, Saskatchewan Experience Category, and Entrepreneur Category, designed to attract skilled workers, graduates, and entrepreneurs to the province. Each category has different sub-streams and criteria.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -569,12 +569,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Manitoba Provincial Nominee Program (MPNP)</h3>
               <div className="col-md-7">
                  <img src={Img.MPNP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Manitoba Provincial Nominee Program (MPNP)</h3>
                     <p className="get_ready_para">Explore the Manitoba Provincial Nominee Program, which offers pathways for skilled workers, international graduates, and entrepreneurs to settle and work in the province. The program includes streams such as Skilled Worker Overseas, Skilled Worker in Manitoba, International Education Stream, Business Investor Stream, and the Farm Investor Pathway.</p>
             <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -594,12 +594,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Nova Scotia Nominee Program (NSNP)</h3>
               <div className="col-md-7">
                  <img src={Img.NSNP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Nova Scotia Nominee Program (NSNP)</h3>
                     <p className="get_ready_para">Experience the charm of Nova Scotia through the Nova Scotia Nominee Program. It has streams for skilled workers, international graduates, and entrepreneurs, aiming to attract individuals who can contribute to the province's economy and community. Streams include the Nova Scotia Demand: Express Entry, Nova Scotia Experience: Express Entry, Entrepreneur Stream, and International Graduate Entrepreneur Stream.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -619,12 +619,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">New Brunswick Provincial Nominee Program (NBPNP)</h3>
               <div className="col-md-7">
                  <img src={Img.new_brunswick_provincial_nominee_program} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">New Brunswick Provincial Nominee Program (NBPNP)</h3>
                     <p className="get_ready_para">Discover the opportunities available in New Brunswick through the New Brunswick Provincial Nominee Program. It has streams for skilled workers, entrepreneurs, and international graduates, providing pathways to permanent residency for eligible candidates. Streams include the Express Entry Labour Market Stream, Skilled Workers with Employer Support, Entrepreneurial Stream, and Post-Graduate Entrepreneurial Stream.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -644,12 +644,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Newfoundland and Labrador Provincial Nominee Program (NLPNP)</h3>
               <div className="col-md-7">
                  <img src={Img.NLPNP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Newfoundland and Labrador Provincial Nominee Program (NLPNP)</h3>
                     <p className="get_ready_para">Discover the opportunities available through the Newfoundland and Labrador Provincial Nominee Program. This program is designed to attract skilled workers, entrepreneurs, and international graduates who can contribute to the province's economic growth. It offers various streams, including the Skilled Worker Category, International Graduate Category, and Entrepreneur Category. Each stream has specific requirements and criteria to assess your eligibility for nomination by Newfoundland and Labrador. Successful nomination can lead to permanent residency in Canada.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -669,12 +669,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Yukon Nominee Program (YNP)</h3>
               <div className="col-md-7">
                  <img src={Img.YNP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Yukon Nominee Program (YNP)</h3>
                     <p className="get_ready_para">Experience the unique opportunities offered by the Yukon Nominee Program. This program aims to attract skilled workers, business owners, and individuals with connections to the Yukon territory. It has streams such as the Skilled Worker Stream, Critical Impact Worker Stream, Business Nominee Stream, and the Express Entry-aligned Program. The program provides pathways to permanent residency for eligible candidates who can contribute to the economic growth and development of the Yukon territory.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -694,12 +694,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Northwest Territories Nominee Program (NTNP)</h3>
               <div className="col-md-7">
                  <img src={Img.NTNP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Northwest Territories Nominee Program (NTNP)</h3>
                     <p className="get_ready_para">Explore the opportunities offered by the Northwest Territories Nominee Program. This program aims to attract skilled workers, entrepreneurs, and individuals with connections to the Northwest Territories. It offers various streams, including the Skilled Worker Stream, Express Entry Stream, Critical Impact Worker Stream, and Business Stream. Each stream has specific requirements and criteria to assess your eligibility for nomination by the Northwest Territories. Successful nomination can lead to permanent residency in Canada.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>
@@ -719,12 +719,12 @@ function Immigrate(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Nunavut Nominee Program (NNP)</h3>
               <div className="col-md-7">
                  <img src={Img.NNP} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Nunavut Nominee Program (NNP)</h3>
                     <p className="get_ready_para">Explore the opportunities offered by the Nunavut Nominee Program, designed to attract skilled workers and entrepreneurs to the unique and vibrant territory of Nunavut. The program aims to address the specific labor market needs of Nunavut and contribute to its economic development. It offers various streams, including the Skilled Worker Stream and Entrepreneur Stream, each with its own requirements and criteria. Successful nomination through the NNP can lead to permanent residency in Canada.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                  <center><button className="business-visit-visa">Book An Appointment</button></center></a>

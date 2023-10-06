@@ -47,8 +47,8 @@ function About_us(){
   };
 
   return(
-    <div className="page">
-      <Header/>
+    <div>
+      <Header />
         <div className="banner_section">
           <img src={Img.about_us_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
@@ -59,18 +59,18 @@ function About_us(){
         </div>
         <div className="immigrate_canada_section animation" id="top">
           <div className="container">
-                <centre><img src={Img.about} className="study_permit_img_2 img" alt=""></img></centre>
+            <div className="row">
+              <div className="col-md-6">
                 <h3 className="about_growing_head anm_mod full fast mt_50">About Growing Globe Immigration</h3>
-                <p className="study_permit_para anm_mod full fast">Welcome to Growing Globe Immigration, an innovative Canadian immigration firm headquartered in the vibrant city of Toronto. We are dedicated pioneers committed to helping individuals turn their dreams of calling Canada their new home into a reality.</p>
-                <p className="study_permit_para anm_mod full fast">Our journey spans three continents, with strategically located offices in Canada, the United Arab Emirates, and India, totaling eight registered offices. We pride ourselves on our multicultural team, which brings diversity to our collective capabilities and perspectives. With over 20 dedicated and proficient Regulated Canadian Immigration Consultants, we stand by a client-centric approach marked by transparency, integrity, and unwavering commitment.</p>
-                <p className="study_permit_para anm_mod full fast">At the core of our success is an executive team that exudes passion, knowledge, and an unwavering drive for excellence. We believe in continuous growth and investment in both our organization and its people, which has been instrumental in transforming lives and forging a path to success in every endeavor.</p>
-                <p className="study_permit_para anm_mod full fast">Growing Globe Immigration is well-versed in over 120 immigration programs, uniquely positioning us to guide our clients towards the most suitable pathways. As proud members of the Immigration Consultants of Canada Regulatory Council (ICCRC), our values are intrinsically aligned with ethical practices, ensuring consistent adherence to the highest standards.</p>
-                <p className="study_permit_para anm_mod full fast">Our dedication has already helped more than 2000 clients fulfill their Canadian dreams and establish partnerships with over 100 organizations worldwide. We approach each day with the utmost confidence that our synergy with your organization will amplify our reach, allowing us to touch even more lives on a global scale.</p>
-                <p className="study_permit_para anm_mod full fast">Welcome to a world where dreams take flight. Welcome to Growing Globe Immigration.</p>
+                <p className="study_permit_para anm_mod full fast">At Growing Globe Immigration, we offer different and most suitable immigration processes for our clients. As regulated Immigration consultants and Immigrants to Canada we understand the needs of clients and are committed and immigrant to Canada understands the needs of his clients and is committed to helping them achieve their dream of living, working, studying, investing, or visiting Canada. We aims to help people across the world immigrate to Canada. We at Growing Globe believe in fairness, ethics, and values and are honored to be regulated by the Immigration Consultants of Canada Regulatory Council (ICCRC).</p>
                 <a href="https://calendly.com/growingglobeimmigration">
                    <button className="book_an_appointment_btn anm_mod full fast mr_15">Book An Appointment</button>
                 </a>
-              
+              </div>
+              <div className="col-md-6">
+                <img src={Img.about} className="study_permit_img" alt=""></img>
+              </div>
+            </div>
           </div>
         </div>
         <div className="requirements_section animation">
@@ -92,24 +92,24 @@ function About_us(){
                     <li className="anm_mod full fast">Get support in more 18 languages</li>
                  </ul>
               </div>
-              <div className="col-md-3 anm_mod full fast logo1">
-                  <img src={Img.capic} className="logo_img mobile_logo" alt=""></img>
-              </div>
-              <ul>
-              <div className="col-md-3 anm_mod full fast logo2">
+              <div className="col-md-3 anm_mod full fast">
                 <center>
-                  <img src={Img.CICC} className="logo_img mobile_logo" alt=""></img>
+                  <img src={Img.capic} className="logo_img" alt=""></img>
                 </center>
               </div>
-              </ul>
-              <div className="col-md-3 anm_mod full fast logo3">
+              <div className="col-md-3 anm_mod full fast">
                 <center>
-                  <img src={Img.Low_security} className="logo_img mobile_logo" alt=""></img>
+                  <img src={Img.CICC} className="logo_img" alt=""></img>
                 </center>
               </div>
-              <div className="col-md-3 anm_mod full fast logo4">
+              <div className="col-md-3 anm_mod full fast">
                 <center>
-                  <img src={FooterImg.footer_img4} className="logo_img mobile_logo" alt=""></img>
+                  <img src={Img.Low_security} className="logo_img" alt=""></img>
+                </center>
+              </div>
+              <div className="col-md-3 anm_mod full fast">
+                <center>
+                  <img src={FooterImg.footer_img4} className="logo_img" alt=""></img>
                 </center>
               </div>
             </div>
@@ -151,7 +151,7 @@ function About_us(){
               <div className="consult_img"><img src={Img.p11} className="consultants" alt=""></img></div>
               </ScrollCarousel>
             <center>
-                <a href="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></a>
+                <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
             </center>
         </div>
         <div className="contact_us_today_section_about_us animation">

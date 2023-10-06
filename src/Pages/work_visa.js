@@ -209,12 +209,12 @@ function Work_visa(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Temporary Work Permit</h3>
               <div className="col-md-7">
                  <img src={Img.temporary_work_permit} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Temporary Work Permit</h3>
                     <p className="get_ready_para">If you're looking to work in Canada for a specific period, the Temporary Work Permit is the perfect fit. This permit allows you to join a Canadian employer in a specific occupation for a defined duration. Depending on the job offer, you may require a Labour Market Impact Assessment (LMIA) or qualify for a LMIA-exempt work permit.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                     <center><button className="business-visit-visa">Book An Appointment</button></center>
@@ -232,12 +232,12 @@ function Work_visa(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">International Mobility Program (IMP)</h3>
               <div className="col-md-7">
                  <img src={Img.international_mobility_program} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">International Mobility Program (IMP)</h3>
                     <p className="get_ready_para">The IMP is designed to facilitate the entry of certain foreign workers into Canada, making it easier for you to contribute your skills and expertise. This program covers a wide range of categories, including intra-company transfers and reciprocal employment opportunities. Depending on the specific program stream, you may or may not require an LMIA. </p>
                     <a href="https://calendly.com/growingglobeimmigration">
                     <center><button className="business-visit-visa">Book An Appointment</button></center>
@@ -255,12 +255,12 @@ function Work_visa(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-                    <h3 className="express_entry_title">Global Talent Stream</h3>
               <div className="col-md-7">
                  <img src={Img.gobal_talent_stream} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Global Talent Stream</h3>
                     <p className="get_ready_para">Are you a highly skilled worker in the fields of science, technology, engineering, or mathematics? The Global Talent Stream provides an expedited and simplified application process, allowing you to join the Canadian workforce more swiftly. This program falls under the IMP and may require an LMIA or fall under the LMIA exemption. </p>
                     <a href="https://calendly.com/growingglobeimmigration">
                     <center><button className="business-visit-visa">Book An Appointment</button></center>
@@ -278,12 +278,12 @@ function Work_visa(){
               <div className="col-md-12">
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
-              <h3 className="express_entry_title">Provincial Nominee Program (PNP)</h3>
               <div className="col-md-7">
-                 <img src={Img.provincial_nominee_program} className="express_entry_img_2" alt=""></img>
+                 <img src={Img.provincial_nominee_program} className="express_entry_img" alt=""></img>
               </div>
               <div className="col-md-5">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
+                    <h3 className="express_entry_title">Provincial Nominee Program (PNP)</h3>
                     <p className="get_ready_para">Canada's provinces and territories have unique labor market needs, and the PNP enables them to nominate foreign workers with specific skills and experience. This program offers you a chance to contribute to the local economy while enjoying the benefits of living in a specific province or territory. Depending on the specific stream within the PNP, an LMIA may or may not be required.</p>
                     <a href="https://calendly.com/growingglobeimmigration">
                     <center><button className="business-visit-visa">Book An Appointment</button></center>
@@ -302,7 +302,7 @@ function Work_visa(){
                    <a href="#close" title="Close" className="close close-top">X</a>
               </div>
               <div className="col-md-12">
-                 <div className="p-3">
+                 <div className="p-3 mt_50">
                     <h3 className="express_entry_title">Vulnerable Workers</h3>
                     <p className="get_ready_para">Canada is committed to protecting the rights and well-being of vulnerable workers, including those employed in low-wage or precarious jobs. The government has implemented measures to ensure fair treatment, safe working conditions, and appropriate compensation for these individuals. If you believe you are a vulnerable worker or have concerns about your working conditions, it is important to seek assistance and report any issues to the appropriate authorities. Our consultancy can provide guidance on your rights as a worker, connect you with resources to address concerns, and ensure that your work visa application aligns with fair and ethical employment practices.</p>
                     <a href="https://calendly.com/growingglobeimmigration">

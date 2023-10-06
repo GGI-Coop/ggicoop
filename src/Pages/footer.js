@@ -28,20 +28,20 @@ function Footer() {
             <h4>Quick Links</h4>
             <div className="footer-link">
               <ul>
-                <li><a className="footer-align" href="/about_us">About Us</a></li>
-                <li><a className="footer-align" href="/visit_visa">Visit Visa</a></li>
-                <li><a className="footer-align" href="/study_permit">Study Permit</a></li>
-                <li><a className="footer-align" href="/work_visa">Work Visa</a></li>
+                <li><a href="/about_us">About Us</a></li>
+                <li><a href="/visit_visa">Visit Visa</a></li>
+                <li><a href="/study_permit">Study Permit</a></li>
+                <li><a href="/work_visa">Work Visa</a></li>
               </ul>
               <ul>
-                <li><a className="footer-align" href="/business_visa">Business Visa</a></li>
-                <li><a className="footer-align" href="/immigrate">Immigration</a></li>
-                <li><a className="footer-align" href="/contactus">Contact Us</a></li>
-                <li><a className="footer-align" href="/blogs">Blog</a></li>
+                <li><a href="/business_visa">Business Visa</a></li>
+                <li><a href="/immigrate">Immigration</a></li>
+                <li><a href="/contactus">Contact Us</a></li>
+                <li><a href="/blogs">Blog</a></li>
               </ul>
             </div>
             <div><br />
-              <h4 className="footer-titles-align">Follow Us</h4>
+              <h4>Follow Us</h4>
               <div className="social_links">
                 <a href="https://www.facebook.com/GrowingGlobeImmigration/"><i className="fa fa-facebook footer_icon" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/growing_globe"><img src={Logo.twitter_logo} className="twitter_img mr-3" alt=""></img></a>
@@ -54,9 +54,9 @@ function Footer() {
           <div className="col-lg-2 col-6 footer-links">
             <h4>Contact</h4>
             <ul>
-              <li><Link className="footer-align" to="tel:16477055403">Canada: <li>+16477055403</li> </Link></li>
-              <li><Link className="footer-align" to="tel:971501328189">UAE : <li>+971501328189</li></Link></li>
-              <li><Link className="footer-align" to="tel:18008890542">India : <li>18008890542</li></Link></li>
+              <li><Link to="tel:16477055403">Canada : +16477055403</Link></li>
+              <li><Link to="tel:971501328189">UAE : +971501328189</Link></li>
+              <li><Link to="tel:18008890542">India : 18008890542</Link></li>
             </ul>
           </div>
           <div className="col-lg-2 col-6 footer-links">
@@ -79,7 +79,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 footer-contact text-center text-md-start img-adjust">
+          <div className="col-lg-3 col-md-6 footer-contact text-center text-md-start">
             <div>
               <img src={FooterImg.footer_img4} className="footer_img" alt=""></img>
               <img src={FooterImg.footer_img} className="footer_img" alt=""></img>
@@ -92,7 +92,7 @@ function Footer() {
       </div>
       <div className="container-fluid mt-4">
         <div className="copyright">
-          &copy; Copyright <strong><span>Growing Globe Immigration</span></strong>. All Rights Reserved | Designed by <a href="https://rajarshisolutions.com/">Rajarshi Solutions</a>
+          &copy; Copyright <strong><span>Growing Globe Immigration</span></strong>. All Rights Reserved 
         </div>
       </div>
 

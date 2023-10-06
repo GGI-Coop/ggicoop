@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
 
+:root, [data-bs-theme=light] {
+
+--bs-link-color-rgb: white!important;
+}
 /*------------------------------------------Margin Top Start------------------------------------------------*/
 .mt_5 {
   margin-top: 5px;
@@ -1159,6 +1163,9 @@
     opacity: 1;
   }
 }
+p {
+    line-height: 20px;
+}
 /*----------------------------------Extra Code End----------------------------------*/
 
 /*---------------------------------Top Bar Start---------------------------------*/
@@ -1187,6 +1194,10 @@
   width: -webkit-fill-available;
   line-height: 0px;
 }
+a{
+  color: #fff;
+  text-decoration: none!important;
+}
 /*---------------------------------Top Bar End---------------------------------*/
 /*---------------------------------NavBar Start---------------------------------*/
 .navbar a {
@@ -1202,6 +1213,7 @@
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  text-decoration: none;
 }
 
 .navbar a:focus, .navbar a:hover, .navbar a.active {
@@ -1217,6 +1229,7 @@
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  text-decoration: none;
 }
 .navbar_logo_box{
   flex-basis: 8%;
@@ -1234,7 +1247,7 @@
   height: 800px;
   align-items: end;
   display: flex;
-  position: relative;
+    position: relative;
 }
 .video_btn_img{
   margin-top: 20px;
@@ -1264,17 +1277,6 @@
 }
 .video_book_appoint{
   font-family: "Montserrat";
-  background: #f30302;
-  font-weight: 500;
-  font-size: 16px;
-  color: #fff;
-  border-radius: 6px;
-  padding: 10px 50px 10px 55px;
-  letter-spacing: 0.5px;
-  border: 2px solid #f30302;
-}
-.video_book_appoint:hover{
-  font-family: "Montserrat";
   background: #fff;
   font-weight: 500;
   font-size: 16px;
@@ -1283,7 +1285,19 @@
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #fff;
+}
+.video_book_appoint:hover{
+  font-family: "Montserrat";
+  background: #f30302;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #f30302;
   transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+  border: solid 2px white;
 }
 .video_free_report{
   font-family: "Montserrat";
@@ -2166,15 +2180,7 @@
   background: white;
   width: 100%;
 }
-.study_permit_img_2 {
-  background: white;
-  height: fit-content;
-  width: fit-content;
-  position: relative;
-  top: 30%;
-  left: 10%;
-  text-align: center;
-}
+
 .read_more_btn{
   font-family: "Montserrat";
   font-size: 14px;
@@ -2184,7 +2190,7 @@
 .requirements_section{
   background-color: #292A2B;
 /*  padding: 80px 0;*/
-  padding: 80px 20px 0px 20px;
+  padding: 80px 20px 80px 20px;
   align-content: center;
 }
 
@@ -2368,24 +2374,9 @@ ul.who_we_are_ul_2 li::before {
   margin-right: 0.5rem;
 }
 .logo_img{
-  height: 70px;
+  height: 64px;
   width: initial;
   margin: 25px 0;
-}
-.logo_img1{
-  height: 70px;
-  width: initial;
-  margin: 25px 0;
-}
-.logo3 {
-  position: relative;
-  left: 600px;
-  top: -260px;
-}
-.logo4 {
-  position: relative;
-  left: 330px;
-  top: -140px;
 }
 .book_an_appointment_btn{
   font-family: "Montserrat";
@@ -2418,6 +2409,11 @@ ul.who_we_are_ul_2 li::before {
 .banner_content_3 {
   position: absolute;
   bottom: 32%;
+  left: 5%;
+}
+.banner_content_blog{
+   position: absolute;
+  bottom: 28%;
   left: 5%;
 }
 /*---------------------------------------------------------------------------------------------------------------------------*/
@@ -2464,7 +2460,7 @@ ul.who_we_are_ul_2 li::before {
 /*------------------------------Testimonials------------------------------------*/
 .testimonials_sec{
   background-color: #101822;
-  padding: 10px 300px 60px 300px;
+  padding: 10px 35px 60px 35px;
   box-sizing: border-box;
 }
 .testimonials h2 {
@@ -2480,9 +2476,9 @@ ul.who_we_are_ul_2 li::before {
 }
 /*-----------------------------------------------------------------------------*/
 .blog-slider {
-  width: 95%;
+  width: 95%!important;
   position: relative;
-  max-width: 800px;
+  max-width: 800px!important;
   margin: auto;
   background: #fff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
@@ -2490,9 +2486,6 @@ ul.who_we_are_ul_2 li::before {
   border-radius: 25px;
   height: 400px;
   transition: all 0.3s;
-}
-.blog-slider__content {
-  width: fit-content;
 }
 @media screen and (max-width: 992px) {
   .blog-slider {
@@ -2575,7 +2568,7 @@ ul.who_we_are_ul_2 li::before {
   transition-delay: 1.7s;
 }
 .blog-slider__img {
-  width: 300px;
+  width: 300px!important;
   flex-shrink: 0;
   height: 300px;
   /* box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2); */
@@ -2704,7 +2697,7 @@ ul.who_we_are_ul_2 li::before {
   .blog-slider__pagination {
     transform: translateX(-50%);
     left: 50% !important;
-    top: 150px;
+    top: 190px;
     width: 100% !important;
     display: flex;
     justify-content: center;
@@ -2774,7 +2767,8 @@ ul.who_we_are_ul_2 li::before {
   transition: 0.5s;
 }
 .blog-card .blog-card-image {
-    height: fit-content;
+/*    height: fit-content;*/
+    height: fit-content!important;
     position: relative;
     overflow: hidden;
     margin-left: 15px;
@@ -2865,6 +2859,7 @@ ul.who_we_are_ul_2 li::before {
   padding-bottom: 12px;
   font-weight: 500;
   font-size: 14px;
+  height: 80px;
 }
 .blog_author_name{
   font-family: "Montserrat";
@@ -2872,8 +2867,9 @@ ul.who_we_are_ul_2 li::before {
 }
 .blog-share {
   position: relative;
-  left: 25%;
+  left: 5%;
   bottom: 2%;
+  padding-bottom: 20px;
 }
 /*-----------------------------------------Blog Page End-----------------------------------------*/
 /*----------------------------------------Contact Page Start----------------------------------------*/
@@ -2995,6 +2991,9 @@ ul.who_we_are_ul_2 li::before {
   color: #212020;
   margin-bottom: 10px;
 }
+.link {
+  color: #000;
+}
 .contact_author_name{
   font-family: "Montserrat";
 }
@@ -3016,39 +3015,32 @@ ul.who_we_are_ul_2 li::before {
   font-size: 16px;
   color: #fff;
   text-align: justify;
-  margin-top: 8px;
+  margin-top: 100px;
 }
 /*------------------------------------------Visit Visa End------------------------------------------*/
 /*-----------------------------------------Blog Details Start-----------------------------------------*/
 .share-icons {
-  margin-right: 10px;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  border: none;
-  margin-top: 10px;
-  margin-bottom: -13px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    /*margin-top: 10px;
+    margin-bottom: -13px;*/
 }
 .twitter_img {
   margin-bottom: 10px;
 }
-.twitter-fix {
-  position: relative;
-  top: -13px;
-}
 .facebook-icon {
   background-color: #3c5997;
   color: white;
-  z-index: 1;
 }
 .linkedin-icon {
   background-color: #027fb1;
   color: white;
-  z-index: 1;
 }
 .whatsapp-icon {
   background-color: #4fe95f;
-  z-index: 1;
 }
 .share-icons:hover {
   scale: 1.05;
@@ -3136,7 +3128,7 @@ ul.who_we_are_ul_2 li::before {
   margin-bottom: 0;
 }
 .blog_detail_side_hr{
-  border: none;
+  border: 1px solid #d80100!important;
   margin-bottom: 20px;
   margin-top: 20px;
   opacity: 1;
@@ -3162,13 +3154,6 @@ ul.who_we_are_ul_2 li::before {
   height: 40px;
   margin-bottom: 10px;
   text-align: center;
-}
-.footer-align {
-  text-align: center;
-}
-.img-adjust {
-  position: relative;
-  left: 20px;
 }
 /*--------------------------------------------------------------------------------------------*/
 
@@ -3227,7 +3212,7 @@ ul.who_we_are_ul_2 li::before {
 .modal-content {
   margin: 0.5em;
 /*  padding: 1.2em;*/
-  background: #ffffff;
+  background: #ffffff!important;
   border-radius: 10px;
   width: 82vw;
   max-width: 1200px!important;
@@ -3268,16 +3253,14 @@ ul.who_we_are_ul_2 li::before {
 .express_entry_img{
   width: 100%;
   border-radius: 6px;
-  position: relative;
 }
 
 .express_entry_title{
   font-family: "Montserrat";
   font-size: 18px;
   text-align: center;
-  margin-top: -50px;
+/*  margin-top: -50px;*/
   padding-top: 10px;
-  position: relative;
 }
 .ul li{
   font-family: "Montserrat";
@@ -3657,9 +3640,7 @@ ul.who_we_are_ul_2 li::before {
   .banner_section {
     position: relative;
   }
-  .page {
-    margin-right: auto;
-  }
+
   /* Styles for the button */
   .embark_book_appoint_2 {
     font-family: "Montserrat";
@@ -3737,10 +3718,14 @@ ul.who_we_are_ul_2 li::before {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
   }
-  
+  .twitter-fix {
+    position: relative;
+    top: 13px;
+  }
 }
 
 @media (max-width: 464px) {
+
   /*Home Page*/
   .book_appoint_section{
     padding-right: 0%;
@@ -3797,7 +3782,7 @@ ul.who_we_are_ul_2 li::before {
     text-transform: capitalize;
   }
   .embark_scroll_container {
-    width: 320px;
+    width: 300px;
     padding: 10px 0px 0px 0px;
     position: relative;
     margin-left: 10px;
@@ -3818,7 +3803,7 @@ ul.who_we_are_ul_2 li::before {
   /* Styles for the button */
   .embark_book_appoint_2 {
     position: absolute;
-    width: 180px;
+    width: 250px;
     font-family: "Montserrat";
     background: #fff;
     font-weight: 500;
@@ -3828,7 +3813,6 @@ ul.who_we_are_ul_2 li::before {
     letter-spacing: 0.5px;
     border: 2px solid #fff;
     cursor: pointer;
-    left: -20px;
   }
 
   .embark_book_appoint_2:hover {
@@ -3875,10 +3859,7 @@ ul.who_we_are_ul_2 li::before {
   }
   .blog-card {
     width: 100%;
-    position: relative;
-    height: fit-content;
   }
-  
   .blog-table {
     width: 100%;
   }
@@ -3898,8 +3879,8 @@ ul.who_we_are_ul_2 li::before {
   }
   .blog-share {
     position: relative;
-    left: 25%;
-    top: -25px;
+    left: 5%;
+    bottom: 2px;
   }
   .share-icons {
     width: 35px;
@@ -3908,14 +3889,14 @@ ul.who_we_are_ul_2 li::before {
   .navbar_logo_box{
     flex-basis: 8%;
     position: relative;
-    right: -7%;
+    left: 33%;
   }
   .blog-card .author {
     position: relative;
   }
   .blog-card .ftr .stats {
     position: relative;
-    left: 5%;
+    left: 0%;
   }
   .blog_detail_side_breadcrumn {
     font-size: 10px;
@@ -3925,21 +3906,23 @@ ul.who_we_are_ul_2 li::before {
   .blog_detail_section_title {
     text-align: center;
   }
-  
   .Blog_section {
+    margin-right: 0px;
+    margin-left: 0px;
     background: #101822;
     padding: 25px 60px 120px 60px;
   }
   .blog-detail-share {
     text-align: center;
+    margin-top: 20px;
   }
   .blog_videos {
     width: 100%;
     height: 300px;
   }
   .twitter-fix {
-    position: absolute;
-    bottom: 100px;
+    position: relative;
+    top: 0px;
   }
   .team_title{
     font-size: 20px;
@@ -4000,137 +3983,15 @@ ul.who_we_are_ul_2 li::before {
   .team_mobile_fix {
     margin-bottom: -30px;
   }
-  .logo_img{
-    height: 700px;
-    width: initial;
-    margin: 25px 0;
-    visibility: hidden;
+  .contact-space {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
-  .footer-align {
-    position: relative;
-    left: 40px;
+  .contact-remove-space {
+    margin-bottom: -50px;
+    padding-bottom: -50px;
   }
-  .img-adjust {
-    position: relative;
-    left: 0px;
+  .contact_section {
+    padding: 65px 20px 50px 20px;
   }
-  .testimonials_sec {
-    height: 700px;
-    padding: 10px 300px 60px 300px;
-
-  }
-  .testimonials {
-    position: relative;
-    bottom: 60px;
-  }
-  .blog-slider {
-    position: relative;
-    top: 70px;
-    height: fit-content;
-  }
-  .blog-slider__title {
-    height: 10px;
-    position: relative;
-    top: -20px;
-  }
-  .blog-slider__content {
-    height: 10px;
-  }
-  .blog-slider__img {
-    width: 90%;
-  }
-  .fix {
-    position: relative;
-    top: -30px;
-  }
-  .fix2 {
-    position: relative;
-    right: 10px;
-  }
-  .indicator {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: -14px;
-    transform: rotate(45deg);
-  }
-  .blog-slider__pagination {
-    top: 200px;
-}
-.facebook-icon {
-  position: relative;
-  top: 13px;
-  font-size: 14px;
-  text-align: center;
-}
-.linkedin-icon {
-  position: relative;
-  top: 13px;
-  font-size: 14px;
-  text-align: center;
-
-}
-.whatsapp-icon {
-  position: relative;
-  top: 13px;
-  font-size: 14px;
-  text-align: center;
-}
-.contact-space {
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-}
-.contact-remove-space {
-  margin-bottom: -50px;
-  padding-bottom: -50px;
-}
-.contact_section {
-  padding: 65px 20px 50px 20px;
-}
-.twitter-fix {
-  position: relative;
-  top: 0px;
-}
-.study_permit_img_2 {
-  height: 100%;
-  width: 100%;
-  left: 0;
-}
-.about_us_text {
-  
-  visibility: hidden;
-}
-.mobile_logo{
-  height: 70px;
-  width: 40px;
-  margin: 0px 0;
-  position: relative;
-  left: -10px;
-  visibility: hidden;
-}
-
-.logo3 {
-  position: relative;
-  left: 0;
-  top: 0;
-  height: 20px;
-}
-.logo4 {
-  position: relative;
-  left: 0;
-  top: 0;
-}
-.team_title{
-  margin-top: 5px;
-}
-
-}
-.about_us_text {
-  z-index: 1;
-  color: white;
-  font-family: "Montserrat";
-  font-size: 30px;
-  line-height: 20px;
-  position: relative;
-  top: -100px;
 }

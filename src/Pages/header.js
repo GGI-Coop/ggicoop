@@ -11,7 +11,7 @@ function Header(){
 		<header className="header d-flex">
 			<div className="container-fluid d-flex align-items-center justify-content-md-between mobile_nav">
 				<a href="/" className="logo d-flex align-items-center navbar_logo_box">
-					<img className="logo_img1" src={Logo.logo} alt=""></img>
+					<img className="logo_img" src={Logo.logo} alt=""></img>
 				</a>
 				<nav id="navbar" className="navbar navbar_nav_box">
 					<ul>
