@@ -59,16 +59,19 @@ function About_us(){
         </div>
         <div className="immigrate_canada_section animation" id="top">
           <div className="container">
+                <img src={Img.about} className="study_permit_img" alt=""></img>
             <div className="row">
-              <div className="col-md-6">
-                <h3 className="about_growing_head anm_mod full fast mt_50">About Growing Globe Immigration</h3>
-                <p className="study_permit_para anm_mod full fast">At Growing Globe Immigration, we offer different and most suitable immigration processes for our clients. As regulated Immigration consultants and Immigrants to Canada we understand the needs of clients and are committed and immigrant to Canada understands the needs of his clients and is committed to helping them achieve their dream of living, working, studying, investing, or visiting Canada. We aims to help people across the world immigrate to Canada. We at Growing Globe believe in fairness, ethics, and values and are honored to be regulated by the Immigration Consultants of Canada Regulatory Council (ICCRC).</p>
+                <center><h3 className="about_growing_head anm_mod full fast mt_50">About Growing Globe Immigration</h3></center>
+                <p className="study_permit_para anm_mod full fast">Welcome to Growing Globe Immigration, an innovative Canadian immigration firm headquartered in the vibrant city of Toronto. We are dedicated pioneers committed to helping individuals turn their dreams of calling Canada their new home into a reality.</p>
+                <p className="study_permit_para anm_mod full fast">Our journey spans three continents, with strategically located offices in Canada, the United Arab Emirates, and India, totaling eight registered offices. We pride ourselves on our multicultural team, which brings diversity to our collective capabilities and perspectives. With over 20 dedicated and proficient Regulated Canadian Immigration Consultants, we stand by a client-centric approach marked by transparency, integrity, and unwavering commitment.</p>
+                <p className="study_permit_para anm_mod full fast">At the core of our success is an executive team that exudes passion, knowledge, and an unwavering drive for excellence. We believe in continuous growth and investment in both our organization and its people, which has been instrumental in transforming lives and forging a path to success in every endeavor.</p>
+                <p className="study_permit_para anm_mod full fast">Growing Globe Immigration is well-versed in over 120 immigration programs, uniquely positioning us to guide our clients towards the most suitable pathways. As proud members of the Immigration Consultants of Canada Regulatory Council (ICCRC), our values are intrinsically aligned with ethical practices, ensuring consistent adherence to the highest standards.</p>
+                <p className="study_permit_para anm_mod full fast">Our dedication has already helped more than 2000 clients fulfill their Canadian dreams and establish partnerships with over 100 organizations worldwide. We approach each day with the utmost confidence that our synergy with your organization will amplify our reach, allowing us to touch even more lives on a global scale.</p>
+                <p className="study_permit_para anm_mod full fast">Welcome to a world where dreams take flight. Welcome to Growing Globe Immigration.</p>
                 <a href="https://calendly.com/growingglobeimmigration">
                    <button className="book_an_appointment_btn anm_mod full fast mr_15">Book An Appointment</button>
                 </a>
-              </div>
               <div className="col-md-6">
-                <img src={Img.about} className="study_permit_img" alt=""></img>
               </div>
             </div>
           </div>
